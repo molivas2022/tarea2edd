@@ -5,9 +5,22 @@ Open_UserIDMap::Open_UserIDMap() {
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         table[i] = nullptr;
     }
+    _size = 0;
 }
 
 Open_UserIDMap::~Open_UserIDMap() {
+    /* For each cell */
+    for (int i = 0; i < HASHTABLE_SIZE; i++) {
+        /* Delete every node */
+        Node * ptr = table[i];
+
+        while(ptr) {
+            Node * oldptr = ptr;
+            ptr = ptr->next;
+            delete ptr;
+        }
+    }
+    /* Delete the table */
     delete[] table;
 }
 
@@ -31,6 +44,7 @@ User Open_UserIDMap::get(long long key) {
 }
 
 User Open_UserIDMap::put(long long key, User value) {
+    _size++;
     auto idx = hashUserID(key);
 
     Node * ptr = table[idx]; /* Head */
@@ -60,6 +74,6 @@ User Open_UserIDMap::put(long long key, User value) {
     }
 }
 
-int Open_UserIDMap::size() {return -1;}
+int Open_UserIDMap::size() {return _size;}
 
-bool Open_UserIDMap::isEmpty() {return false;}
+bool Open_UserIDMap::isEmpty() {return (_size == 0);}

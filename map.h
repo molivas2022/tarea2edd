@@ -30,6 +30,7 @@ class Open_UserIDMap: public UserIDMap {
         User value;
     };
     Node ** table;
+    int _size;
 public:
     Open_UserIDMap();
     ~Open_UserIDMap();

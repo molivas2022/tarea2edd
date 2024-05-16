@@ -15,5 +15,8 @@ struct User {
     std::string creationDate;
 };
 
-/* User function */
+/* Null value */
+const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::string("null")};
+
+/* User functions */
 User * readEntries();

@@ -23,13 +23,13 @@ public:
 
 /* Función auxiliar */
 void printUser(User user) {
-    std::cout << "[User]" << " \t";
-    std::cout << "University: " << user.university << " \t";
-    std::cout << "UserID: " << user.userID << " \t";
-    std::cout << "Username: " << user.username << " \t";
-    std::cout << "Tweets Count: " << user.tweetCount << " \t";
-    std::cout << "Friends Count: " << user.friendCount << " \t";
-    std::cout << "Followers Count: " << user.followerCount << " \t";
+    std::cout << "[User] ";
+    std::cout << "University: " << user.university << " | ";
+    std::cout << "UserID: " << user.userID << " | ";
+    std::cout << "Username: " << user.username << " | ";
+    std::cout << "Tweets Count: " << user.tweetCount << " | ";
+    std::cout << "Friends Count: " << user.friendCount << " | ";
+    std::cout << "Followers Count: " << user.followerCount << " | ";
     std::cout << "Creation Date: " << user.creationDate << std::endl;
 }
 
@@ -43,6 +43,7 @@ int main() {
     }
     */
 
+    /*
     Double_UserIDMap dict;
 
     auto key1 = r.generate();
@@ -60,4 +61,10 @@ int main() {
     printUser(dict.get(key1));
     printUser(dict.get(key2));
     printUser(dict.get(key3));
+    */
+    
+    User * users = readEntries();
+    for (int i = 0; i < ENTRIES_SIZE; i++) {
+        printUser(users[i]);
+    }
 }

@@ -19,3 +19,22 @@ int doubleHashUserID(long long int key) {
     const long long int DOUBLEHASH_SIZE = 21067; /* Previous prime number */
     return (int)(DOUBLEHASH_SIZE - (key % DOUBLEHASH_SIZE));
 }
+
+/* Fuente: Ejemplo de función hash para claves de strings de la clase 8 */
+int hashUsername(std::string key) {
+    int h = 0;
+    int a = 127;
+    for (char c : key) {
+        h = (a*h + c) % HASHTABLE_SIZE;
+    }
+    return h;
+}
+
+/* Fuente: Implementación del código Component Sum (Strings) de la clase 8 */
+int doubleHashUsername(std::string key){
+    int sum = 0;
+    for (char c : key) {
+        sum += c;
+    }
+    return sum % HASHTABLE_SIZE;
+}

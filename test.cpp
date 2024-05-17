@@ -21,6 +21,11 @@ public:
     }
 };
 
+long long getRandomUserID(User * users) {
+    int idx = rand() % ENTRIES_SIZE;
+    return users[idx].userID;
+}
+
 /* Función auxiliar */
 void printUser(User user) {
     std::cout << "[User] ";
@@ -34,6 +39,7 @@ void printUser(User user) {
 }
 
 int main() {
+    srand(time(nullptr));
     Random r;
 
     /*
@@ -64,7 +70,25 @@ int main() {
     */
     
     User * users = readEntries();
+    /*
     for (int i = 0; i < ENTRIES_SIZE; i++) {
         printUser(users[i]);
+    }
+    */
+    Open_UserIDMap dict1;
+    Double_UserIDMap dict2;
+
+    for (int i = 0; i < ENTRIES_SIZE; i++) {
+        dict1.put(users[i].userID, users[i]);
+        dict2.put(users[i].userID, users[i]);
+        std::cout << i + 1 << "th entry done. " << std::endl;
+    }
+
+    const int searchCount = 100000;
+    for (int i = 0; i < searchCount; i++) {
+        long long id = getRandomUserID(users);
+        std::cout << i+1 << "th search: " << std::endl;
+        printUser(dict1.get(id));
+        printUser(dict2.get(id));
     }
 }

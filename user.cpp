@@ -39,7 +39,7 @@ User * readEntries() {
         user.university = token;
 
         std::getline(ss, token, ',');
-        user.userID = std::stoll(token);
+        user.userID = static_cast<long long>(std::stod(token));
 
         std::getline(ss, token, ',');
         user.username = token;

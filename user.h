@@ -3,6 +3,7 @@
 #include <string>
 
 #define ENTRIES_SIZE 21070
+#define ENTRIES_PATH "universities_followers.csv"
 
 /* Data type */
 struct User {
@@ -13,7 +14,14 @@ struct User {
     int friendCount;
     int followerCount;
     std::string creationDate;
+    
+    bool operator==(User);
 };
 
-/* User function */
+/* Null value */
+const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::string("null")};
+
+/* User functions */
+bool equals(User, User);
+
 User * readEntries();

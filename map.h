@@ -4,22 +4,16 @@
 #include "user.h"
 #include "hash.h"
 
-/* Auxiliar data types */
-struct Pair_int {
-    long long key;
+template <typename T>
+struct Pair {
+    T key;
     User value;
-    
-    bool operator==(Pair_int);
-};
-const Pair_int NULL_PAIR_INT{0, NULL_USER};
 
-struct Pair_string {
-    std::string key;
-    User value;
-    
-    bool operator==(Pair_string);
+    bool operator==(Pair<T>);
 };
-const Pair_string NULL_PAIR_STRING{"null", NULL_USER};
+
+const Pair<long long> NULL_PAIR_LLONG{0, NULL_USER};
+const Pair<std::string> NULL_PAIR_STRING{"null", NULL_USER};
 
 /* Abstract data type */
 template <typename key, typename value>
@@ -41,7 +35,16 @@ class UsernameMap: public Map<std::string, User> {
 
 /* ADT Implementation */
 class Open_UserIDMap: public UserIDMap {
+    struct Node {
+        Node * next = nullptr;
+        long long key;
+        User value;
+    };
+    Node ** table;
+    int _size;
 public:
+    Open_UserIDMap();
+    ~Open_UserIDMap();
     User get(long long int) override;
     User put(long long int, User) override;
     int size() override;
@@ -50,7 +53,7 @@ public:
 
 /* ADT Implementation */
 class Linear_UserIDMap: public UserIDMap {
-    Pair_int * table;
+    Pair<long long> * table;
     int _size;
 public:
     Linear_UserIDMap();
@@ -63,7 +66,7 @@ public:
 
 /* ADT Implementation */
 class Cuadratic_UserIDMap: public UserIDMap {
-    Pair_int * table;
+    Pair<long long> * table;
     int _size;
 public:
     Cuadratic_UserIDMap();
@@ -76,7 +79,7 @@ public:
 
 /* ADT Implementation */
 class Double_UserIDMap: public UserIDMap {
-    Pair_int * table;
+    Pair<long long> * table;
     int _size;
 public:
     Double_UserIDMap();
@@ -98,7 +101,7 @@ public:
 
 /* ADT Implementation */
 class Linear_UsernameMap: public UsernameMap {
-    Pair_string * table;
+    Pair<std::string> * table;
     int _size;
 public:
     Linear_UsernameMap();
@@ -109,9 +112,10 @@ public:
     bool isEmpty() override;
 };
 
+
 /* ADT Implementation */
 class Cuadratic_UsernameMap: public UsernameMap {
-    Pair_string * table;
+    Pair<std::string> * table;
     int _size;
 public:
     Cuadratic_UsernameMap();
@@ -121,6 +125,7 @@ public:
     int size() override;
     bool isEmpty() override;
 };
+
 
 /* ADT Implementation */
 class Double_UsernameMap: public UsernameMap {

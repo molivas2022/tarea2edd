@@ -13,10 +13,14 @@ struct User {
     int friendCount;
     int followerCount;
     std::string creationDate;
+    
+    bool operator==(User);
 };
 
 /* Null value */
 const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::string("null")};
 
 /* User functions */
+bool equals(User, User);
+
 User * readEntries();

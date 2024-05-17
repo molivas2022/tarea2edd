@@ -4,6 +4,15 @@
 #include "user.h"
 #include "hash.h"
 
+/* Auxiliar data type */
+struct Pair {
+    long long key;
+    User value;
+    
+    bool operator==(Pair);
+};
+const Pair NULL_PAIR{0, NULL_USER};
+
 /* Abstract data type */
 template <typename key, typename value>
 class Map {
@@ -40,7 +49,6 @@ public:
     bool isEmpty() override;
 };
 
-
 /* ADT Implementation */
 class Linear_UserIDMap: public UserIDMap {
 public:
@@ -61,7 +69,11 @@ public:
 
 /* ADT Implementation */
 class Double_UserIDMap: public UserIDMap {
+    Pair * table;
+    int _size;
 public:
+    Double_UserIDMap();
+    ~Double_UserIDMap();
     User get(long long int) override;
     User put(long long int, User) override;
     int size() override;

@@ -43,7 +43,7 @@ int main() {
     }
     */
 
-    Open_UserIDMap dict;
+    Double_UserIDMap dict;
 
     auto key1 = r.generate();
     auto key2 = r.generate();

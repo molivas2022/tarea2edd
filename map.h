@@ -4,6 +4,7 @@
 #include "user.h"
 #include "hash.h"
 
+/* Auxiliar data type */
 template <typename T>
 struct Pair {
     T key;
@@ -14,6 +15,14 @@ struct Pair {
 
 const Pair<long long> NULL_PAIR_LLONG{0, NULL_USER};
 const Pair<std::string> NULL_PAIR_STRING{"null", NULL_USER};
+
+/* Auxiliar data type */
+template <typename T>
+struct Node {
+    Node * next = nullptr;
+    T key;
+    User value;
+};
 
 /* Abstract data type */
 template <typename key, typename value>
@@ -35,12 +44,7 @@ class UsernameMap: public Map<std::string, User> {
 
 /* ADT Implementation */
 class Open_UserIDMap: public UserIDMap {
-    struct Node {
-        Node * next = nullptr;
-        long long key;
-        User value;
-    };
-    Node ** table;
+    Node<long long> ** table;
     int _size;
 public:
     Open_UserIDMap();
@@ -92,7 +96,11 @@ public:
 
 /* ADT Implementation */
 class Open_UsernameMap: public UsernameMap {
+    Node<std::string> ** table;
+    int _size;
 public:
+    Open_UsernameMap();
+    ~Open_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;
@@ -129,7 +137,11 @@ public:
 
 /* ADT Implementation */
 class Double_UsernameMap: public UsernameMap {
+    Pair<std::string> * table;
+    int _size;
 public:
+    Double_UsernameMap();
+    ~Double_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;

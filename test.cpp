@@ -81,45 +81,53 @@ int main() {
     }
     */
 
-    /*
-    Open_UserIDMap dict1;
-    Linear_UserIDMap dict2;
-    Cuadratic_UserIDMap dict3;
-    Double_UserIDMap dict4;
+    {
+        Open_UserIDMap dict1;
+        Linear_UserIDMap dict2;
+        Cuadratic_UserIDMap dict3;
+        Double_UserIDMap dict4;
 
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
-        dict1.put(users[i].userID, users[i]);
-        dict2.put(users[i].userID, users[i]);
-        dict3.put(users[i].userID, users[i]);
-        dict4.put(users[i].userID, users[i]);
-        std::cout << i + 1 << "th entry done. " << std::endl;
+        for (int i = 0; i < ENTRIES_SIZE; i++) {
+            dict1.put(users[i].userID, users[i]);
+            dict2.put(users[i].userID, users[i]);
+            dict3.put(users[i].userID, users[i]);
+            dict4.put(users[i].userID, users[i]);
+            std::cout << i + 1 << "th entry done. " << std::endl;
+        }
+
+        const int searchCount = 10000;
+        for (int i = 0; i < searchCount; i++) {
+            long long id = getRandomUserID(users);
+            std::cout << i+1 << "th search: " << std::endl;
+            printUser(dict1.get(id));
+            printUser(dict2.get(id));
+            printUser(dict3.get(id));
+            printUser(dict4.get(id));
+        }
     }
 
-    const int searchCount = 10000;
-    for (int i = 0; i < searchCount; i++) {
-        long long id = getRandomUserID(users);
-        std::cout << i+1 << "th search: " << std::endl;
-        printUser(dict1.get(id));
-        printUser(dict2.get(id));
-        printUser(dict3.get(id));
-        printUser(dict4.get(id));
-    }
-    */
+    {
+        Open_UsernameMap dict1;
+        Linear_UsernameMap dict2;
+        Cuadratic_UsernameMap dict3;
+        Double_UsernameMap dict4;
 
-    Linear_UsernameMap dict2;
-    Cuadratic_UsernameMap dict3;
+        for (int i = 0; i < ENTRIES_SIZE; i++) {
+            dict1.put(users[i].username, users[i]);
+            dict2.put(users[i].username, users[i]);
+            dict3.put(users[i].username, users[i]);
+            dict4.put(users[i].username, users[i]);
+            std::cout << i + 1 << "th entry done. " << std::endl;
+        }
 
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
-        dict2.put(users[i].username, users[i]);
-        dict3.put(users[i].username, users[i]);
-        std::cout << i + 1 << "th entry done. " << std::endl;
-    }
-
-    const int searchCount = 10000;
-    for (int i = 0; i < searchCount; i++) {
-        std::string name = getRandomUsername(users);
-        std::cout << i+1 << "th search: " << std::endl;
-        printUser(dict2.get(name));
-        printUser(dict3.get(name));
+        const int searchCount = 10000;
+        for (int i = 0; i < searchCount; i++) {
+            std::string name = getRandomUsername(users);
+            std::cout << i+1 << "th search: " << std::endl;
+            printUser(dict1.get(name));
+            printUser(dict2.get(name));
+            printUser(dict3.get(name));
+            printUser(dict4.get(name));
+        }
     }
 }

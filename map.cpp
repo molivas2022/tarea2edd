@@ -23,7 +23,7 @@ Open_UserIDMap::~Open_UserIDMap() {
         while(ptr) {
             Node * oldptr = ptr;
             ptr = ptr->next;
-            delete ptr;
+            delete oldptr;
         }
     }
     /* Delete the table */
@@ -100,7 +100,7 @@ User Double_UserIDMap::get(long long key) {
     int h2 = doubleHashUserID(key);
 
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
-        int idx = h1 + i*h2;
+        int idx = (h1 + i*h2) % HASHTABLE_SIZE;
 
         /* Empty cell: Key not found */
         if (table[idx] == NULL_PAIR) {
@@ -120,7 +120,7 @@ User Double_UserIDMap::put(long long key, User value) {
     int h2 = doubleHashUserID(key);
 
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
-        int idx = h1 + i*h2;
+        int idx = (h1 + i*h2) % HASHTABLE_SIZE;
 
         /* Empty cell */
         if (table[idx] == NULL_PAIR) {

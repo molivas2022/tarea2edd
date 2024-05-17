@@ -4,14 +4,22 @@
 #include "user.h"
 #include "hash.h"
 
-/* Auxiliar data type */
-struct Pair {
+/* Auxiliar data types */
+struct Pair_int {
     long long key;
     User value;
     
-    bool operator==(Pair);
+    bool operator==(Pair_int);
 };
-const Pair NULL_PAIR{0, NULL_USER};
+const Pair_int NULL_PAIR_INT{0, NULL_USER};
+
+struct Pair_string {
+    std::string key;
+    User value;
+    
+    bool operator==(Pair_string);
+};
+const Pair_string NULL_PAIR_STRING{"null", NULL_USER};
 
 /* Abstract data type */
 template <typename key, typename value>
@@ -42,7 +50,7 @@ public:
 
 /* ADT Implementation */
 class Linear_UserIDMap: public UserIDMap {
-    Pair * table;
+    Pair_int * table;
     int _size;
 public:
     Linear_UserIDMap();
@@ -55,7 +63,7 @@ public:
 
 /* ADT Implementation */
 class Cuadratic_UserIDMap: public UserIDMap {
-    Pair * table;
+    Pair_int * table;
     int _size;
 public:
     Cuadratic_UserIDMap();
@@ -68,7 +76,7 @@ public:
 
 /* ADT Implementation */
 class Double_UserIDMap: public UserIDMap {
-    Pair * table;
+    Pair_int * table;
     int _size;
 public:
     Double_UserIDMap();
@@ -90,7 +98,11 @@ public:
 
 /* ADT Implementation */
 class Linear_UsernameMap: public UsernameMap {
+    Pair_string * table;
+    int _size;
 public:
+    Linear_UsernameMap();
+    ~Linear_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;
@@ -99,7 +111,11 @@ public:
 
 /* ADT Implementation */
 class Cuadratic_UsernameMap: public UsernameMap {
+    Pair_string * table;
+    int _size;
 public:
+    Cuadratic_UsernameMap();
+    ~Cuadratic_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;

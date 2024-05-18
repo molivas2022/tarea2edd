@@ -1,5 +1,7 @@
 #include "map.h"
 
+#include <stdexcept>
+
 template <typename T>
 bool Pair<T>::operator==(Pair<T> pair) {
     bool cond1 = (key == pair.key);
@@ -510,3 +512,43 @@ User Double_UsernameMap::put(std::string key, User value) {
 int Double_UsernameMap::size() {return _size;}
 
 bool Double_UsernameMap::isEmpty() {return (_size == 0);}
+
+User STL_UserIDMap::get(long long key) {
+    try {
+        return _map.at(key);
+    }
+    catch (std::out_of_range) {
+        return NULL_USER;
+    }
+}
+
+User STL_UserIDMap::put(long long key, User value) {
+    User previousValue = get(key);
+    if (previousValue == NULL_USER) {_size++;}
+    _map[key] = value;
+    return previousValue;
+}
+
+int STL_UserIDMap::size() {return _size;}
+
+bool STL_UserIDMap::isEmpty() {return (_size == 0);}
+
+User STL_UsernameMap::get(std::string key) {
+    try {
+        return _map.at(key);
+    }
+    catch (std::out_of_range) {
+        return NULL_USER;
+    }
+}
+
+User STL_UsernameMap::put(std::string key, User value) {
+    User previousValue = get(key);
+    if (previousValue == NULL_USER) {_size++;}
+    _map[key] = value;
+    return previousValue;
+}
+
+int STL_UsernameMap::size() {return _size;}
+
+bool STL_UsernameMap::isEmpty() {return (_size == 0);}

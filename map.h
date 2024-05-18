@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <map>
 #include "user.h"
 #include "hash.h"
 
@@ -120,7 +121,6 @@ public:
     bool isEmpty() override;
 };
 
-
 /* ADT Implementation */
 class Cuadratic_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
@@ -134,7 +134,6 @@ public:
     bool isEmpty() override;
 };
 
-
 /* ADT Implementation */
 class Double_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
@@ -142,6 +141,28 @@ class Double_UsernameMap: public UsernameMap {
 public:
     Double_UsernameMap();
     ~Double_UsernameMap();
+    User get(std::string) override;
+    User put(std::string, User) override;
+    int size() override;
+    bool isEmpty() override;
+};
+
+/* ADT Implementation */
+class STL_UserIDMap: public UserIDMap {
+    std::map<long long, User> _map;
+    int _size = 0;
+public:
+    User get(long long int) override;
+    User put(long long int, User) override;
+    int size() override;
+    bool isEmpty() override;
+};
+
+/* ADT Implementation */
+class STL_UsernameMap: public UsernameMap {
+    std::map<std::string, User> _map;
+    int _size = 0;
+public:
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;

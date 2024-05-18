@@ -1,133 +1,117 @@
+#include "test.h"
+
 #include <iostream>
 #include <random>
+#include <string>
 
 #include "hash.h"
 #include "map.h"
 
 /* Fuente: Modificación del código encontrado en: https://stackoverflow.com/a/22883968 */
-class Random {
-    std::mt19937_64 * eng;
-    std::uniform_int_distribution<unsigned long long> distr;
-public:
-    Random() {
-        std::random_device rd;
-        eng = new std::mt19937_64(rd());
-    }
-    long long generate() {
-        return distr(*eng);
-    }
-    ~Random() {
-        delete eng;
-    }
-};
+Random::Random(User * users) {
+    std::random_device rd;
+    mt = new std::mt19937_64(rd());
 
-long long getRandomUserID(User * users) {
-    int idx = rand() % ENTRIES_SIZE;
-    return users[idx].userID;
+    this->users = users;
 }
 
-std::string getRandomUsername(User * users) {
-    int idx = rand() % ENTRIES_SIZE;
-    return users[idx].username;
+Random::~Random() {
+    delete mt;
 }
 
-/* Función auxiliar */
-void printUser(User user) {
-    std::cout << "[User] ";
-    std::cout << "University: " << user.university << " | ";
-    std::cout << "UserID: " << user.userID << " | ";
-    std::cout << "Username: " << user.username << " | ";
-    std::cout << "Tweets Count: " << user.tweetCount << " | ";
-    std::cout << "Friends Count: " << user.friendCount << " | ";
-    std::cout << "Followers Count: " << user.followerCount << " | ";
-    std::cout << "Creation Date: " << user.creationDate << std::endl;
+long long Random::generateLongLong() {
+    distr<long long> d;
+    return d(*mt);
 }
 
-int main() {
-    srand(time(nullptr));
-    Random r;
+std::string Random::generateString() {
+    distr<int> i(8,32);
+    int size = i(*mt);
 
-    /*
-    for(int n=0; n<5; n++) {
-        auto i = r.generate();
-        std::cout << "Key: " << i << " \tHash: " << hashUserID(i) << " \tDoubleHash: " << doubleHashUserID(i) << std::endl;
+    distr<char> c(65,90);
+    std::string str;
+    for (int i = 0; i < size; i++) {
+        str.push_back(c(*mt));
     }
-    */
+    return str;
+}
 
-    /*
-    Double_UserIDMap dict;
+long long * Random::generateIDSample(int sampleSize) {
+    long long * llongs = new long long[sampleSize];
+    distr<int> d(0, ENTRIES_SIZE-1);
 
-    auto key1 = r.generate();
-    auto key2 = r.generate();
-    auto key3 = r.generate();
-    User value1 = {"UDEC", 0, "Pepe", 0, 0 , 0, "May 15"};
-    User value2 = {"USS", 0, "Seba", 0, 0, 0, "June 15"};
-    User value3 = {"USC", 0, "Cata", 0, 0, 0, "July 15"};
-
-    printUser(dict.put(key1, value1));
-    printUser(dict.put(key2, value2));
-    printUser(dict.put(key1, value3));
-    std::cout << std::endl;
-
-    printUser(dict.get(key1));
-    printUser(dict.get(key2));
-    printUser(dict.get(key3));
-    */
-    
-    User * users = readEntries();
-    /*
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
-        printUser(users[i]);
+    for (int i = 0; i < sampleSize; i++) {
+        llongs[i] = users[d(*mt)].userID;
     }
-    */
+    return llongs;
+}
 
-    {
-        Open_UserIDMap dict1;
-        Linear_UserIDMap dict2;
-        Cuadratic_UserIDMap dict3;
-        Double_UserIDMap dict4;
+std::string * Random::generateUsernameSample(int sampleSize) {
+    std::string * strings = new std::string[sampleSize];
+    distr<int> d(0, ENTRIES_SIZE-1);
 
-        for (int i = 0; i < ENTRIES_SIZE; i++) {
-            dict1.put(users[i].userID, users[i]);
-            dict2.put(users[i].userID, users[i]);
-            dict3.put(users[i].userID, users[i]);
-            dict4.put(users[i].userID, users[i]);
-            std::cout << i + 1 << "th entry done. " << std::endl;
-        }
-
-        const int searchCount = 10000;
-        for (int i = 0; i < searchCount; i++) {
-            long long id = getRandomUserID(users);
-            std::cout << i+1 << "th search: " << std::endl;
-            printUser(dict1.get(id));
-            printUser(dict2.get(id));
-            printUser(dict3.get(id));
-            printUser(dict4.get(id));
-        }
+    for (int i = 0; i < sampleSize; i++) {
+        strings[i] = users[d(*mt)].username;
     }
+    return strings;
+}
 
-    {
-        Open_UsernameMap dict1;
-        Linear_UsernameMap dict2;
-        Cuadratic_UsernameMap dict3;
-        Double_UsernameMap dict4;
+long long * Random::generateFalseIDSample(int sampleSize) {
+    long long * llongs = new long long[sampleSize];
 
-        for (int i = 0; i < ENTRIES_SIZE; i++) {
-            dict1.put(users[i].username, users[i]);
-            dict2.put(users[i].username, users[i]);
-            dict3.put(users[i].username, users[i]);
-            dict4.put(users[i].username, users[i]);
-            std::cout << i + 1 << "th entry done. " << std::endl;
+    for (int i = 0; i < sampleSize; i++) {
+        long long candidate;
+        while (true) {
+            candidate = generateLongLong();
+            for (int i = 0; i < ENTRIES_SIZE; i++) {
+                if (candidate == users[i].userID) {
+                    continue;
+                }
+            }
+            break;
         }
-
-        const int searchCount = 10000;
-        for (int i = 0; i < searchCount; i++) {
-            std::string name = getRandomUsername(users);
-            std::cout << i+1 << "th search: " << std::endl;
-            printUser(dict1.get(name));
-            printUser(dict2.get(name));
-            printUser(dict3.get(name));
-            printUser(dict4.get(name));
-        }
+        llongs[i] = candidate;
     }
+    return llongs;
+}
+
+std::string * Random::generateFalseUsernameSample(int sampleSize) {
+    std::string * strings = new std::string[sampleSize];
+
+    for (int i = 0; i < sampleSize; i++) {
+        std::string candidate;
+        while (true) {
+            candidate = generateString();
+            for (int i = 0; i < ENTRIES_SIZE; i++) {
+                if (candidate == users[i].username) {
+                    continue;
+                }
+            }
+            break;
+        }
+        strings[i] = candidate;
+    }
+    return strings;
+}
+
+Clock::Clock() {
+    start();
+}
+
+void Clock::start() {
+    using namespace std::chrono;
+    _start = high_resolution_clock::now();
+    _lap = high_resolution_clock::now();
+}
+
+double Clock::lap() {
+    using namespace std::chrono;
+    high_resolution_clock::time_point _lastlap = _lap;
+    _lap = high_resolution_clock::now();
+    return duration_cast<microseconds>(_lap - _lastlap).count() / 1000.0;
+}
+
+double Clock::now() {
+    using namespace std::chrono;
+    return duration_cast<microseconds>(high_resolution_clock::now() - _start).count() / 1000.0;
 }

@@ -22,6 +22,5 @@ struct User {
 const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::string("null")};
 
 /* User functions */
-bool equals(User, User);
-
+void printUser(User);
 User * readEntries();

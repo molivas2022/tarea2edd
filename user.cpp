@@ -16,6 +16,19 @@ bool User::operator==(User user) {
     return cond;
 }
 
+/* Función auxiliar */
+void printUser(User user) {
+    std::cout << "[User] ";
+    std::cout << "University: " << user.university << " | ";
+    std::cout << "UserID: " << user.userID << " | ";
+    std::cout << "Username: " << user.username << " | ";
+    std::cout << "Tweets Count: " << user.tweetCount << " | ";
+    std::cout << "Friends Count: " << user.friendCount << " | ";
+    std::cout << "Followers Count: " << user.followerCount << " | ";
+    std::cout << "Creation Date: " << user.creationDate << std::endl;
+}
+
+
 User * readEntries() {
     /* Open the CSV file */
     std::ifstream file{ENTRIES_PATH};

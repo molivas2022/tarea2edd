@@ -23,4 +23,6 @@ const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::
 
 /* User functions */
 void printUser(User);
-User * readEntries();
+User* readEntries(int);
+long long* readUserIDs(int);
+std::string* readUsernames(int);

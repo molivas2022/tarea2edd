@@ -29,7 +29,7 @@ void printUser(User user) {
 }
 
 
-User * readEntries() {
+User * readEntries(int n) {
     /* Open the CSV file */
     std::ifstream file{ENTRIES_PATH};
     if (!file.is_open()) {
@@ -37,12 +37,12 @@ User * readEntries() {
         return nullptr;
     }
 
-    User * users = new User[ENTRIES_SIZE];
+    User * users = new User[n];
 
     /* Read the file line by line */
     std::string line;
     std::getline(file, line); /* Skip the first line */
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
+    for (int i = 0; i < n; i++) {
         std::getline(file, line);
         std::istringstream ss(line);
         std::string token;
@@ -74,4 +74,75 @@ User * readEntries() {
 
     file.close();
     return users;
+}
+
+long long* readUserIDs(int n) {
+    std::ifstream file{ENTRIES_PATH};
+    if (!file.is_open()) {
+        std::cerr << "Error opening the .csv file" << std::endl;
+        return nullptr;
+    }
+
+    long long* userIDs = new long long[n];
+    std::string line;
+    std::getline(file, line); // Skip the first line (header)
+    
+    for (int i = 0; i < n; ++i) {
+        if (!std::getline(file, line)) {
+            std::cerr << "Not enough data in the .csv file" << std::endl;
+            break;
+        }
+
+        std::istringstream ss(line);
+        std::string token;
+
+        // Skip University
+        std::getline(ss, token, ',');
+
+        // Read UserID
+        std::getline(ss, token, ',');
+        userIDs[i] = static_cast<long long>(std::stod(token));
+
+        // Skip the remaining columns
+    }
+
+    file.close();
+    return userIDs;
+}
+
+std::string* readUsernames(int n) {
+    std::ifstream file{ENTRIES_PATH};
+    if (!file.is_open()) {
+        std::cerr << "Error opening the .csv file" << std::endl;
+        return nullptr;
+    }
+
+    std::string* usernames = new std::string[n];
+    std::string line;
+    std::getline(file, line); // Skip the first line (header)
+    
+    for (int i = 0; i < n; ++i) {
+        if (!std::getline(file, line)) {
+            std::cerr << "Not enough data in the .csv file" << std::endl;
+            break;
+        }
+
+        std::istringstream ss(line);
+        std::string token;
+
+        // Skip University
+        std::getline(ss, token, ',');
+
+        // Skip UserID
+        std::getline(ss, token, ',');
+
+        // Read Username
+        std::getline(ss, token, ',');
+        usernames[i] = token;
+
+        // Skip the remaining columns
+    }
+
+    file.close();
+    return usernames;
 }

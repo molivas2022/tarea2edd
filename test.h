@@ -5,6 +5,14 @@
 #include <chrono>
 #include "user.h"
 
+const std::string tests[] = {
+    "Hashing Abierto",
+    "Linear Probing",
+    "Cuadratic Probing",
+    "Double Hashing",
+    "STL"
+};
+
 class Random {
     std::mt19937_64 * mt;
     User * users;

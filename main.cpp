@@ -34,7 +34,7 @@ void testUsernameMap(UsernameMap& map, User * users, std::string * keys, std::st
 }
 
 int main() {
-    User * users = readEntries();
+    User * users = readEntries(ENTRIES_SIZE);
     Random r{users};
     Clock c;
     c.start();

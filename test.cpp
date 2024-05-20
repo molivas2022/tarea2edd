@@ -108,10 +108,10 @@ double Clock::lap() {
     using namespace std::chrono;
     high_resolution_clock::time_point _lastlap = _lap;
     _lap = high_resolution_clock::now();
-    return duration_cast<microseconds>(_lap - _lastlap).count() / 1000.0;
+    return duration_cast<nanoseconds>(_lap - _lastlap).count() * 1e-6;
 }
 
 double Clock::now() {
     using namespace std::chrono;
-    return duration_cast<microseconds>(high_resolution_clock::now() - _start).count() / 1000.0;
+    return duration_cast<nanoseconds>(high_resolution_clock::now() - _start).count() * 1e-6;
 }

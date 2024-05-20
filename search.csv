@@ -1,0 +1,601 @@
+diccionario;clave;presencia;tiempo
+Hashing Abierto;UserID;Almacenados;10.4705
+Hashing Abierto;UserID;No almacenados;11.6001
+Linear Probing;UserID;Almacenados;46.4167
+Linear Probing;UserID;No almacenados;262.362
+Cuadratic Probing;UserID;Almacenados;42.9929
+Cuadratic Probing;UserID;No almacenados;224.163
+Double Hashing;UserID;Almacenados;28.4269
+Double Hashing;UserID;No almacenados;129.992
+STL;UserID;Almacenados;42.0422
+STL;UserID;No almacenados;179.912
+Hashing Abierto;Username;Almacenados;25.4617
+Hashing Abierto;Username;No almacenados;34.273
+Linear Probing;Username;Almacenados;65.6263
+Linear Probing;Username;No almacenados;312.999
+Cuadratic Probing;Username;Almacenados;65.5217
+Cuadratic Probing;Username;No almacenados;289.599
+Double Hashing;Username;Almacenados;59.7931
+Double Hashing;Username;No almacenados;202.036
+STL;Username;Almacenados;58.1288
+STL;Username;No almacenados;211.032
+Hashing Abierto;UserID;Almacenados;11.2746
+Hashing Abierto;UserID;No almacenados;12.0024
+Linear Probing;UserID;Almacenados;47.2147
+Linear Probing;UserID;No almacenados;269.394
+Cuadratic Probing;UserID;Almacenados;43.6594
+Cuadratic Probing;UserID;No almacenados;227.966
+Double Hashing;UserID;Almacenados;29.9179
+Double Hashing;UserID;No almacenados;131.247
+STL;UserID;Almacenados;41.7701
+STL;UserID;No almacenados;177.22
+Hashing Abierto;Username;Almacenados;24.077
+Hashing Abierto;Username;No almacenados;34.9089
+Linear Probing;Username;Almacenados;66.546
+Linear Probing;Username;No almacenados;313.08
+Cuadratic Probing;Username;Almacenados;67.5291
+Cuadratic Probing;Username;No almacenados;297.334
+Double Hashing;Username;Almacenados;59.3271
+Double Hashing;Username;No almacenados;202.897
+STL;Username;Almacenados;56.4582
+STL;Username;No almacenados;213.693
+Hashing Abierto;UserID;Almacenados;10.3743
+Hashing Abierto;UserID;No almacenados;11.5535
+Linear Probing;UserID;Almacenados;47.4179
+Linear Probing;UserID;No almacenados;269.18
+Cuadratic Probing;UserID;Almacenados;44.8826
+Cuadratic Probing;UserID;No almacenados;227.196
+Double Hashing;UserID;Almacenados;29.9682
+Double Hashing;UserID;No almacenados;131.039
+STL;UserID;Almacenados;41.9619
+STL;UserID;No almacenados;186.126
+Hashing Abierto;Username;Almacenados;24.2728
+Hashing Abierto;Username;No almacenados;34.5148
+Linear Probing;Username;Almacenados;66.2057
+Linear Probing;Username;No almacenados;315.944
+Cuadratic Probing;Username;Almacenados;66.1069
+Cuadratic Probing;Username;No almacenados;290.815
+Double Hashing;Username;Almacenados;59.2576
+Double Hashing;Username;No almacenados;204.481
+STL;Username;Almacenados;56.0404
+STL;Username;No almacenados;208.932
+Hashing Abierto;UserID;Almacenados;10.4631
+Hashing Abierto;UserID;No almacenados;11.6226
+Linear Probing;UserID;Almacenados;46.4274
+Linear Probing;UserID;No almacenados;269.042
+Cuadratic Probing;UserID;Almacenados;44.1677
+Cuadratic Probing;UserID;No almacenados;227.749
+Double Hashing;UserID;Almacenados;28.8627
+Double Hashing;UserID;No almacenados;131.574
+STL;UserID;Almacenados;41.8553
+STL;UserID;No almacenados;183.242
+Hashing Abierto;Username;Almacenados;24.5376
+Hashing Abierto;Username;No almacenados;34.5679
+Linear Probing;Username;Almacenados;66.0206
+Linear Probing;Username;No almacenados;315.164
+Cuadratic Probing;Username;Almacenados;67.1897
+Cuadratic Probing;Username;No almacenados;291.525
+Double Hashing;Username;Almacenados;59.4024
+Double Hashing;Username;No almacenados;202.862
+STL;Username;Almacenados;56.5462
+STL;Username;No almacenados;213.194
+Hashing Abierto;UserID;Almacenados;10.5611
+Hashing Abierto;UserID;No almacenados;11.7917
+Linear Probing;UserID;Almacenados;46.3918
+Linear Probing;UserID;No almacenados;270.157
+Cuadratic Probing;UserID;Almacenados;44.7639
+Cuadratic Probing;UserID;No almacenados;227.549
+Double Hashing;UserID;Almacenados;28.5307
+Double Hashing;UserID;No almacenados;132.786
+STL;UserID;Almacenados;42.2224
+STL;UserID;No almacenados;180.778
+Hashing Abierto;Username;Almacenados;24.2412
+Hashing Abierto;Username;No almacenados;34.7898
+Linear Probing;Username;Almacenados;65.7661
+Linear Probing;Username;No almacenados;313.092
+Cuadratic Probing;Username;Almacenados;65.6745
+Cuadratic Probing;Username;No almacenados;289.098
+Double Hashing;Username;Almacenados;59.4687
+Double Hashing;Username;No almacenados;203.696
+STL;Username;Almacenados;55.4387
+STL;Username;No almacenados;209.558
+Hashing Abierto;UserID;Almacenados;10.2899
+Hashing Abierto;UserID;No almacenados;11.5363
+Linear Probing;UserID;Almacenados;48.7492
+Linear Probing;UserID;No almacenados;281.612
+Cuadratic Probing;UserID;Almacenados;46.2764
+Cuadratic Probing;UserID;No almacenados;236.966
+Double Hashing;UserID;Almacenados;33.44
+Double Hashing;UserID;No almacenados;164.31
+STL;UserID;Almacenados;42.2775
+STL;UserID;No almacenados;183.914
+Hashing Abierto;Username;Almacenados;24.1701
+Hashing Abierto;Username;No almacenados;34.6054
+Linear Probing;Username;Almacenados;67.505
+Linear Probing;Username;No almacenados;322.497
+Cuadratic Probing;Username;Almacenados;67.2382
+Cuadratic Probing;Username;No almacenados;289.274
+Double Hashing;Username;Almacenados;59.2621
+Double Hashing;Username;No almacenados;202.778
+STL;Username;Almacenados;55.0826
+STL;Username;No almacenados;210.086
+Hashing Abierto;UserID;Almacenados;10.4071
+Hashing Abierto;UserID;No almacenados;11.5332
+Linear Probing;UserID;Almacenados;46.9603
+Linear Probing;UserID;No almacenados;268.244
+Cuadratic Probing;UserID;Almacenados;43.9698
+Cuadratic Probing;UserID;No almacenados;228.504
+Double Hashing;UserID;Almacenados;28.4012
+Double Hashing;UserID;No almacenados;131.949
+STL;UserID;Almacenados;42.2827
+STL;UserID;No almacenados;180.579
+Hashing Abierto;Username;Almacenados;23.6995
+Hashing Abierto;Username;No almacenados;34.2298
+Linear Probing;Username;Almacenados;65.4589
+Linear Probing;Username;No almacenados;308.973
+Cuadratic Probing;Username;Almacenados;64.8668
+Cuadratic Probing;Username;No almacenados;282.567
+Double Hashing;Username;Almacenados;59.0366
+Double Hashing;Username;No almacenados;198.757
+STL;Username;Almacenados;55.1896
+STL;Username;No almacenados;205.598
+Hashing Abierto;UserID;Almacenados;10.7043
+Hashing Abierto;UserID;No almacenados;11.6433
+Linear Probing;UserID;Almacenados;46.2384
+Linear Probing;UserID;No almacenados;267.523
+Cuadratic Probing;UserID;Almacenados;43.7801
+Cuadratic Probing;UserID;No almacenados;227.983
+Double Hashing;UserID;Almacenados;28.845
+Double Hashing;UserID;No almacenados;129.036
+STL;UserID;Almacenados;42.2251
+STL;UserID;No almacenados;181.572
+Hashing Abierto;Username;Almacenados;24.1512
+Hashing Abierto;Username;No almacenados;34.4374
+Linear Probing;Username;Almacenados;65.298
+Linear Probing;Username;No almacenados;313.458
+Cuadratic Probing;Username;Almacenados;67.7873
+Cuadratic Probing;Username;No almacenados;288.037
+Double Hashing;Username;Almacenados;59.3175
+Double Hashing;Username;No almacenados;202.445
+STL;Username;Almacenados;55.2247
+STL;Username;No almacenados;206.001
+Hashing Abierto;UserID;Almacenados;10.5245
+Hashing Abierto;UserID;No almacenados;11.7371
+Linear Probing;UserID;Almacenados;47.6901
+Linear Probing;UserID;No almacenados;267.503
+Cuadratic Probing;UserID;Almacenados;43.5551
+Cuadratic Probing;UserID;No almacenados;228.411
+Double Hashing;UserID;Almacenados;28.5203
+Double Hashing;UserID;No almacenados;129.791
+STL;UserID;Almacenados;42.0948
+STL;UserID;No almacenados;180.257
+Hashing Abierto;Username;Almacenados;24.1599
+Hashing Abierto;Username;No almacenados;34.4809
+Linear Probing;Username;Almacenados;66.2121
+Linear Probing;Username;No almacenados;317.805
+Cuadratic Probing;Username;Almacenados;65.6226
+Cuadratic Probing;Username;No almacenados;289.569
+Double Hashing;Username;Almacenados;59.4093
+Double Hashing;Username;No almacenados;202.944
+STL;Username;Almacenados;55.3649
+STL;Username;No almacenados;207.117
+Hashing Abierto;UserID;Almacenados;10.5095
+Hashing Abierto;UserID;No almacenados;11.5438
+Linear Probing;UserID;Almacenados;46.528
+Linear Probing;UserID;No almacenados;261.568
+Cuadratic Probing;UserID;Almacenados;43.1242
+Cuadratic Probing;UserID;No almacenados;222.119
+Double Hashing;UserID;Almacenados;28.3711
+Double Hashing;UserID;No almacenados;129.234
+STL;UserID;Almacenados;41.9416
+STL;UserID;No almacenados;176.105
+Hashing Abierto;Username;Almacenados;23.8442
+Hashing Abierto;Username;No almacenados;34.4482
+Linear Probing;Username;Almacenados;66.0925
+Linear Probing;Username;No almacenados;316.185
+Cuadratic Probing;Username;Almacenados;65.5041
+Cuadratic Probing;Username;No almacenados;288.925
+Double Hashing;Username;Almacenados;58.0344
+Double Hashing;Username;No almacenados;199.132
+STL;Username;Almacenados;54.97
+STL;Username;No almacenados;205.564
+Hashing Abierto;UserID;Almacenados;10.3554
+Hashing Abierto;UserID;No almacenados;11.593
+Linear Probing;UserID;Almacenados;46.184
+Linear Probing;UserID;No almacenados;263.912
+Cuadratic Probing;UserID;Almacenados;43.86
+Cuadratic Probing;UserID;No almacenados;224.723
+Double Hashing;UserID;Almacenados;28.381
+Double Hashing;UserID;No almacenados;132.883
+STL;UserID;Almacenados;42.3805
+STL;UserID;No almacenados;185.524
+Hashing Abierto;Username;Almacenados;25.4181
+Hashing Abierto;Username;No almacenados;37.6002
+Linear Probing;Username;Almacenados;75.6873
+Linear Probing;Username;No almacenados;366.082
+Cuadratic Probing;Username;Almacenados;74.2988
+Cuadratic Probing;Username;No almacenados;335.12
+Double Hashing;Username;Almacenados;67.5653
+Double Hashing;Username;No almacenados;246.429
+STL;Username;Almacenados;55.3654
+STL;Username;No almacenados;210.605
+Hashing Abierto;UserID;Almacenados;10.4557
+Hashing Abierto;UserID;No almacenados;11.7929
+Linear Probing;UserID;Almacenados;45.9373
+Linear Probing;UserID;No almacenados;266.463
+Cuadratic Probing;UserID;Almacenados;43.5278
+Cuadratic Probing;UserID;No almacenados;226.722
+Double Hashing;UserID;Almacenados;28.7551
+Double Hashing;UserID;No almacenados;131.032
+STL;UserID;Almacenados;42.1686
+STL;UserID;No almacenados;188.815
+Hashing Abierto;Username;Almacenados;23.9009
+Hashing Abierto;Username;No almacenados;34.324
+Linear Probing;Username;Almacenados;65.1381
+Linear Probing;Username;No almacenados;310.326
+Cuadratic Probing;Username;Almacenados;64.5594
+Cuadratic Probing;Username;No almacenados;284.14
+Double Hashing;Username;Almacenados;58.1125
+Double Hashing;Username;No almacenados;198.905
+STL;Username;Almacenados;55.0971
+STL;Username;No almacenados;204.626
+Hashing Abierto;UserID;Almacenados;10.7571
+Hashing Abierto;UserID;No almacenados;11.7438
+Linear Probing;UserID;Almacenados;48.8878
+Linear Probing;UserID;No almacenados;279.515
+Cuadratic Probing;UserID;Almacenados;43.4243
+Cuadratic Probing;UserID;No almacenados;224.713
+Double Hashing;UserID;Almacenados;28.1481
+Double Hashing;UserID;No almacenados;129.188
+STL;UserID;Almacenados;41.6565
+STL;UserID;No almacenados;181.175
+Hashing Abierto;Username;Almacenados;23.9748
+Hashing Abierto;Username;No almacenados;33.9045
+Linear Probing;Username;Almacenados;65.5196
+Linear Probing;Username;No almacenados;313.441
+Cuadratic Probing;Username;Almacenados;64.9022
+Cuadratic Probing;Username;No almacenados;288.871
+Double Hashing;Username;Almacenados;58.3618
+Double Hashing;Username;No almacenados;200.806
+STL;Username;Almacenados;54.6594
+STL;Username;No almacenados;205.717
+Hashing Abierto;UserID;Almacenados;10.2788
+Hashing Abierto;UserID;No almacenados;11.4884
+Linear Probing;UserID;Almacenados;47.0607
+Linear Probing;UserID;No almacenados;264.043
+Cuadratic Probing;UserID;Almacenados;43.6802
+Cuadratic Probing;UserID;No almacenados;225.256
+Double Hashing;UserID;Almacenados;28.3498
+Double Hashing;UserID;No almacenados;130.97
+STL;UserID;Almacenados;42.0013
+STL;UserID;No almacenados;185.44
+Hashing Abierto;Username;Almacenados;23.5279
+Hashing Abierto;Username;No almacenados;33.8029
+Linear Probing;Username;Almacenados;64.5776
+Linear Probing;Username;No almacenados;306.402
+Cuadratic Probing;Username;Almacenados;64.9945
+Cuadratic Probing;Username;No almacenados;284.689
+Double Hashing;Username;Almacenados;58.3076
+Double Hashing;Username;No almacenados;198.797
+STL;Username;Almacenados;54.3667
+STL;Username;No almacenados;205.686
+Hashing Abierto;UserID;Almacenados;10.6954
+Hashing Abierto;UserID;No almacenados;11.6368
+Linear Probing;UserID;Almacenados;46.3981
+Linear Probing;UserID;No almacenados;267.307
+Cuadratic Probing;UserID;Almacenados;43.7661
+Cuadratic Probing;UserID;No almacenados;225.592
+Double Hashing;UserID;Almacenados;28.3442
+Double Hashing;UserID;No almacenados;130.978
+STL;UserID;Almacenados;42.2881
+STL;UserID;No almacenados;182.266
+Hashing Abierto;Username;Almacenados;24.2286
+Hashing Abierto;Username;No almacenados;34.0019
+Linear Probing;Username;Almacenados;65.8524
+Linear Probing;Username;No almacenados;311.988
+Cuadratic Probing;Username;Almacenados;65.0586
+Cuadratic Probing;Username;No almacenados;286.614
+Double Hashing;Username;Almacenados;59.5862
+Double Hashing;Username;No almacenados;201.472
+STL;Username;Almacenados;55.0554
+STL;Username;No almacenados;205.979
+Hashing Abierto;UserID;Almacenados;10.287
+Hashing Abierto;UserID;No almacenados;11.7153
+Linear Probing;UserID;Almacenados;46.3832
+Linear Probing;UserID;No almacenados;262.905
+Cuadratic Probing;UserID;Almacenados;43.2257
+Cuadratic Probing;UserID;No almacenados;223.999
+Double Hashing;UserID;Almacenados;28.2292
+Double Hashing;UserID;No almacenados;129.677
+STL;UserID;Almacenados;41.9691
+STL;UserID;No almacenados;180.383
+Hashing Abierto;Username;Almacenados;24.0198
+Hashing Abierto;Username;No almacenados;34.026
+Linear Probing;Username;Almacenados;64.189
+Linear Probing;Username;No almacenados;309.152
+Cuadratic Probing;Username;Almacenados;64.6905
+Cuadratic Probing;Username;No almacenados;283.747
+Double Hashing;Username;Almacenados;58.1724
+Double Hashing;Username;No almacenados;199.394
+STL;Username;Almacenados;54.8288
+STL;Username;No almacenados;206.777
+Hashing Abierto;UserID;Almacenados;10.3812
+Hashing Abierto;UserID;No almacenados;11.654
+Linear Probing;UserID;Almacenados;46.582
+Linear Probing;UserID;No almacenados;262.124
+Cuadratic Probing;UserID;Almacenados;43.4716
+Cuadratic Probing;UserID;No almacenados;223.769
+Double Hashing;UserID;Almacenados;28.1846
+Double Hashing;UserID;No almacenados;130.672
+STL;UserID;Almacenados;42.0512
+STL;UserID;No almacenados;230.51
+Hashing Abierto;Username;Almacenados;24.4941
+Hashing Abierto;Username;No almacenados;34.5085
+Linear Probing;Username;Almacenados;65.5032
+Linear Probing;Username;No almacenados;310.692
+Cuadratic Probing;Username;Almacenados;66.6873
+Cuadratic Probing;Username;No almacenados;306.672
+Double Hashing;Username;Almacenados;59.7567
+Double Hashing;Username;No almacenados;202.4
+STL;Username;Almacenados;54.7356
+STL;Username;No almacenados;209.095
+Hashing Abierto;UserID;Almacenados;10.5286
+Hashing Abierto;UserID;No almacenados;11.6883
+Linear Probing;UserID;Almacenados;47.4331
+Linear Probing;UserID;No almacenados;264.327
+Cuadratic Probing;UserID;Almacenados;45.1423
+Cuadratic Probing;UserID;No almacenados;226.447
+Double Hashing;UserID;Almacenados;28.999
+Double Hashing;UserID;No almacenados;129.755
+STL;UserID;Almacenados;41.7816
+STL;UserID;No almacenados;176.169
+Hashing Abierto;Username;Almacenados;25.0956
+Hashing Abierto;Username;No almacenados;34.3784
+Linear Probing;Username;Almacenados;65.8603
+Linear Probing;Username;No almacenados;312.88
+Cuadratic Probing;Username;Almacenados;65.0985
+Cuadratic Probing;Username;No almacenados;289.908
+Double Hashing;Username;Almacenados;59.776
+Double Hashing;Username;No almacenados;203.459
+STL;Username;Almacenados;55.5947
+STL;Username;No almacenados;208.655
+Hashing Abierto;UserID;Almacenados;10.363
+Hashing Abierto;UserID;No almacenados;11.578
+Linear Probing;UserID;Almacenados;46.5809
+Linear Probing;UserID;No almacenados;266.63
+Cuadratic Probing;UserID;Almacenados;43.4344
+Cuadratic Probing;UserID;No almacenados;227.089
+Double Hashing;UserID;Almacenados;28.0756
+Double Hashing;UserID;No almacenados;129.16
+STL;UserID;Almacenados;42.6324
+STL;UserID;No almacenados;179.376
+Hashing Abierto;Username;Almacenados;24.5292
+Hashing Abierto;Username;No almacenados;35.0607
+Linear Probing;Username;Almacenados;65.4196
+Linear Probing;Username;No almacenados;312.827
+Cuadratic Probing;Username;Almacenados;65.5132
+Cuadratic Probing;Username;No almacenados;288.82
+Double Hashing;Username;Almacenados;59.6458
+Double Hashing;Username;No almacenados;201.611
+STL;Username;Almacenados;55.2567
+STL;Username;No almacenados;210.25
+Hashing Abierto;UserID;Almacenados;10.3616
+Hashing Abierto;UserID;No almacenados;11.6908
+Linear Probing;UserID;Almacenados;46.2788
+Linear Probing;UserID;No almacenados;263.68
+Cuadratic Probing;UserID;Almacenados;43.1429
+Cuadratic Probing;UserID;No almacenados;221.944
+Double Hashing;UserID;Almacenados;28.4788
+Double Hashing;UserID;No almacenados;130.121
+STL;UserID;Almacenados;42.0236
+STL;UserID;No almacenados;182.551
+Hashing Abierto;Username;Almacenados;24.5109
+Hashing Abierto;Username;No almacenados;34.1193
+Linear Probing;Username;Almacenados;65.5964
+Linear Probing;Username;No almacenados;311.7
+Cuadratic Probing;Username;Almacenados;68.0606
+Cuadratic Probing;Username;No almacenados;288.4
+Double Hashing;Username;Almacenados;58.595
+Double Hashing;Username;No almacenados;202.36
+STL;Username;Almacenados;56.7705
+STL;Username;No almacenados;210.11
+Hashing Abierto;UserID;Almacenados;10.3054
+Hashing Abierto;UserID;No almacenados;11.5536
+Linear Probing;UserID;Almacenados;47.0708
+Linear Probing;UserID;No almacenados;263.9
+Cuadratic Probing;UserID;Almacenados;43.5101
+Cuadratic Probing;UserID;No almacenados;226.189
+Double Hashing;UserID;Almacenados;28.4405
+Double Hashing;UserID;No almacenados;129.346
+STL;UserID;Almacenados;44.4704
+STL;UserID;No almacenados;183.757
+Hashing Abierto;Username;Almacenados;24.3509
+Hashing Abierto;Username;No almacenados;34.0686
+Linear Probing;Username;Almacenados;65.0545
+Linear Probing;Username;No almacenados;312.956
+Cuadratic Probing;Username;Almacenados;67.1367
+Cuadratic Probing;Username;No almacenados;297.24
+Double Hashing;Username;Almacenados;58.7553
+Double Hashing;Username;No almacenados;202.839
+STL;Username;Almacenados;55.4751
+STL;Username;No almacenados;208.746
+Hashing Abierto;UserID;Almacenados;10.5863
+Hashing Abierto;UserID;No almacenados;11.6526
+Linear Probing;UserID;Almacenados;47.2447
+Linear Probing;UserID;No almacenados;265.041
+Cuadratic Probing;UserID;Almacenados;44.0167
+Cuadratic Probing;UserID;No almacenados;226.936
+Double Hashing;UserID;Almacenados;28.2612
+Double Hashing;UserID;No almacenados;129.396
+STL;UserID;Almacenados;41.6638
+STL;UserID;No almacenados;181.01
+Hashing Abierto;Username;Almacenados;23.618
+Hashing Abierto;Username;No almacenados;33.8559
+Linear Probing;Username;Almacenados;64.7414
+Linear Probing;Username;No almacenados;310.008
+Cuadratic Probing;Username;Almacenados;64.3378
+Cuadratic Probing;Username;No almacenados;284.076
+Double Hashing;Username;Almacenados;57.8329
+Double Hashing;Username;No almacenados;199.23
+STL;Username;Almacenados;55.0875
+STL;Username;No almacenados;206.281
+Hashing Abierto;UserID;Almacenados;10.4064
+Hashing Abierto;UserID;No almacenados;11.5615
+Linear Probing;UserID;Almacenados;46.9718
+Linear Probing;UserID;No almacenados;265.093
+Cuadratic Probing;UserID;Almacenados;43.3118
+Cuadratic Probing;UserID;No almacenados;225.69
+Double Hashing;UserID;Almacenados;28.5737
+Double Hashing;UserID;No almacenados;131.528
+STL;UserID;Almacenados;41.7959
+STL;UserID;No almacenados;181.413
+Hashing Abierto;Username;Almacenados;23.7149
+Hashing Abierto;Username;No almacenados;33.9593
+Linear Probing;Username;Almacenados;65.334
+Linear Probing;Username;No almacenados;310.592
+Cuadratic Probing;Username;Almacenados;64.5959
+Cuadratic Probing;Username;No almacenados;284.442
+Double Hashing;Username;Almacenados;59.4613
+Double Hashing;Username;No almacenados;204.852
+STL;Username;Almacenados;54.9177
+STL;Username;No almacenados;205.947
+Hashing Abierto;UserID;Almacenados;10.3925
+Hashing Abierto;UserID;No almacenados;11.7121
+Linear Probing;UserID;Almacenados;47.1584
+Linear Probing;UserID;No almacenados;267.809
+Cuadratic Probing;UserID;Almacenados;44.24
+Cuadratic Probing;UserID;No almacenados;226.762
+Double Hashing;UserID;Almacenados;28.4334
+Double Hashing;UserID;No almacenados;130.436
+STL;UserID;Almacenados;42.0147
+STL;UserID;No almacenados;180.956
+Hashing Abierto;Username;Almacenados;24.0111
+Hashing Abierto;Username;No almacenados;33.8129
+Linear Probing;Username;Almacenados;64.5375
+Linear Probing;Username;No almacenados;308.702
+Cuadratic Probing;Username;Almacenados;64.1908
+Cuadratic Probing;Username;No almacenados;284.848
+Double Hashing;Username;Almacenados;59.074
+Double Hashing;Username;No almacenados;200.077
+STL;Username;Almacenados;55.4777
+STL;Username;No almacenados;207.416
+Hashing Abierto;UserID;Almacenados;10.3031
+Hashing Abierto;UserID;No almacenados;11.6229
+Linear Probing;UserID;Almacenados;46.1281
+Linear Probing;UserID;No almacenados;263.82
+Cuadratic Probing;UserID;Almacenados;43.9378
+Cuadratic Probing;UserID;No almacenados;223.814
+Double Hashing;UserID;Almacenados;28.1811
+Double Hashing;UserID;No almacenados;130.166
+STL;UserID;Almacenados;43.1359
+STL;UserID;No almacenados;180.093
+Hashing Abierto;Username;Almacenados;23.9268
+Hashing Abierto;Username;No almacenados;33.7279
+Linear Probing;Username;Almacenados;64.0595
+Linear Probing;Username;No almacenados;306.557
+Cuadratic Probing;Username;Almacenados;65.7427
+Cuadratic Probing;Username;No almacenados;286.357
+Double Hashing;Username;Almacenados;58.1811
+Double Hashing;Username;No almacenados;200.501
+STL;Username;Almacenados;55.4716
+STL;Username;No almacenados;206.473
+Hashing Abierto;UserID;Almacenados;10.3467
+Hashing Abierto;UserID;No almacenados;11.5611
+Linear Probing;UserID;Almacenados;46.1989
+Linear Probing;UserID;No almacenados;262.959
+Cuadratic Probing;UserID;Almacenados;43.5923
+Cuadratic Probing;UserID;No almacenados;226.72
+Double Hashing;UserID;Almacenados;28.294
+Double Hashing;UserID;No almacenados;129.09
+STL;UserID;Almacenados;42.1231
+STL;UserID;No almacenados;180.045
+Hashing Abierto;Username;Almacenados;24.0471
+Hashing Abierto;Username;No almacenados;33.8731
+Linear Probing;Username;Almacenados;64.727
+Linear Probing;Username;No almacenados;307.354
+Cuadratic Probing;Username;Almacenados;64.526
+Cuadratic Probing;Username;No almacenados;286.306
+Double Hashing;Username;Almacenados;60.7644
+Double Hashing;Username;No almacenados;201.599
+STL;Username;Almacenados;55.7112
+STL;Username;No almacenados;209.574
+Hashing Abierto;UserID;Almacenados;10.4936
+Hashing Abierto;UserID;No almacenados;11.7479
+Linear Probing;UserID;Almacenados;47.9492
+Linear Probing;UserID;No almacenados;270.398
+Cuadratic Probing;UserID;Almacenados;43.7952
+Cuadratic Probing;UserID;No almacenados;226.339
+Double Hashing;UserID;Almacenados;28.2711
+Double Hashing;UserID;No almacenados;129.119
+STL;UserID;Almacenados;41.9733
+STL;UserID;No almacenados;180.729
+Hashing Abierto;Username;Almacenados;24.0754
+Hashing Abierto;Username;No almacenados;34.5125
+Linear Probing;Username;Almacenados;65.8404
+Linear Probing;Username;No almacenados;312.569
+Cuadratic Probing;Username;Almacenados;65.4344
+Cuadratic Probing;Username;No almacenados;285.969
+Double Hashing;Username;Almacenados;58.6349
+Double Hashing;Username;No almacenados;202.395
+STL;Username;Almacenados;54.195
+STL;Username;No almacenados;212.81
+Hashing Abierto;UserID;Almacenados;10.4446
+Hashing Abierto;UserID;No almacenados;11.6847
+Linear Probing;UserID;Almacenados;46.8384
+Linear Probing;UserID;No almacenados;261.723
+Cuadratic Probing;UserID;Almacenados;43.4969
+Cuadratic Probing;UserID;No almacenados;222.384
+Double Hashing;UserID;Almacenados;28.1143
+Double Hashing;UserID;No almacenados;130.805
+STL;UserID;Almacenados;41.6844
+STL;UserID;No almacenados;180.713
+Hashing Abierto;Username;Almacenados;24.1347
+Hashing Abierto;Username;No almacenados;34.3089
+Linear Probing;Username;Almacenados;65.3949
+Linear Probing;Username;No almacenados;311.803
+Cuadratic Probing;Username;Almacenados;65.6202
+Cuadratic Probing;Username;No almacenados;286.745
+Double Hashing;Username;Almacenados;58.9494
+Double Hashing;Username;No almacenados;202.024
+STL;Username;Almacenados;56.7403
+STL;Username;No almacenados;206.639
+Hashing Abierto;UserID;Almacenados;10.3815
+Hashing Abierto;UserID;No almacenados;11.6533
+Linear Probing;UserID;Almacenados;45.841
+Linear Probing;UserID;No almacenados;261.285
+Cuadratic Probing;UserID;Almacenados;42.9552
+Cuadratic Probing;UserID;No almacenados;223.411
+Double Hashing;UserID;Almacenados;28.0426
+Double Hashing;UserID;No almacenados;128.822
+STL;UserID;Almacenados;42.4394
+STL;UserID;No almacenados;179.478
+Hashing Abierto;Username;Almacenados;24.2145
+Hashing Abierto;Username;No almacenados;33.7607
+Linear Probing;Username;Almacenados;64.7782
+Linear Probing;Username;No almacenados;308.623
+Cuadratic Probing;Username;Almacenados;64.4596
+Cuadratic Probing;Username;No almacenados;282.939
+Double Hashing;Username;Almacenados;58.4614
+Double Hashing;Username;No almacenados;198.406
+STL;Username;Almacenados;54.9637
+STL;Username;No almacenados;204.739
+Hashing Abierto;UserID;Almacenados;10.4104
+Hashing Abierto;UserID;No almacenados;11.6168
+Linear Probing;UserID;Almacenados;46.5802
+Linear Probing;UserID;No almacenados;267.093
+Cuadratic Probing;UserID;Almacenados;43.8626
+Cuadratic Probing;UserID;No almacenados;225.253
+Double Hashing;UserID;Almacenados;28.0768
+Double Hashing;UserID;No almacenados;130.199
+STL;UserID;Almacenados;41.7789
+STL;UserID;No almacenados;182.657
+Hashing Abierto;Username;Almacenados;23.8318
+Hashing Abierto;Username;No almacenados;33.761
+Linear Probing;Username;Almacenados;64.2198
+Linear Probing;Username;No almacenados;306.958
+Cuadratic Probing;Username;Almacenados;66.5029
+Cuadratic Probing;Username;No almacenados;285.047
+Double Hashing;Username;Almacenados;58.1382
+Double Hashing;Username;No almacenados;199.943
+STL;Username;Almacenados;55.1454
+STL;Username;No almacenados;213.456

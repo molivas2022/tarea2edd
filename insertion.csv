@@ -1,0 +1,1801 @@
+diccionario;clave;elementos;tiempo
+Hashing Abierto;UserID;1000;0.196897
+Linear Probing;UserID;1000;0.306625
+Cuadratic Probing;UserID;1000;0.270308
+Double Hashing;UserID;1000;0.254971
+STL;UserID;1000;2.53791
+Hashing Abierto;UserID;5000;0.887795
+Linear Probing;UserID;5000;1.62967
+Cuadratic Probing;UserID;5000;1.53624
+Double Hashing;UserID;5000;1.46537
+STL;UserID;5000;13.2617
+Hashing Abierto;UserID;10000;1.77031
+Linear Probing;UserID;10000;3.40463
+Cuadratic Probing;UserID;10000;3.31428
+Double Hashing;UserID;10000;3.44546
+STL;UserID;10000;25.1891
+Hashing Abierto;UserID;15000;2.56876
+Linear Probing;UserID;15000;5.77669
+Cuadratic Probing;UserID;15000;5.82007
+Double Hashing;UserID;15000;5.8197
+STL;UserID;15000;38.1879
+Hashing Abierto;UserID;20000;3.63078
+Linear Probing;UserID;20000;8.48926
+Cuadratic Probing;UserID;20000;8.43009
+Double Hashing;UserID;20000;8.46227
+STL;UserID;20000;51.7603
+Hashing Abierto;UserID;21070;3.77289
+Linear Probing;UserID;21070;9.61362
+Cuadratic Probing;UserID;21070;9.68161
+Double Hashing;UserID;21070;9.39858
+STL;UserID;21070;52.8005
+Hashing Abierto;Username;1000;0.33176
+Linear Probing;Username;1000;0.53444
+Cuadratic Probing;Username;1000;0.433647
+Double Hashing;Username;1000;0.513087
+STL;Username;1000;2.72785
+Hashing Abierto;Username;5000;1.52585
+Linear Probing;Username;5000;2.42677
+Cuadratic Probing;Username;5000;2.35754
+Double Hashing;Username;5000;2.7986
+STL;Username;5000;13.8271
+Hashing Abierto;Username;10000;3.07679
+Linear Probing;Username;10000;5.03632
+Cuadratic Probing;Username;10000;5.01988
+Double Hashing;Username;10000;6.19792
+STL;Username;10000;28.5239
+Hashing Abierto;Username;15000;4.72199
+Linear Probing;Username;15000;7.9186
+Cuadratic Probing;Username;15000;7.93515
+Double Hashing;Username;15000;9.58183
+STL;Username;15000;42.792
+Hashing Abierto;Username;20000;6.32089
+Linear Probing;Username;20000;12.2321
+Cuadratic Probing;Username;20000;12.0695
+Double Hashing;Username;20000;14.5086
+STL;Username;20000;55.8117
+Hashing Abierto;Username;21070;7.21501
+Linear Probing;Username;21070;14.077
+Cuadratic Probing;Username;21070;13.862
+Double Hashing;Username;21070;16.2711
+STL;Username;21070;59.2744
+Hashing Abierto;UserID;1000;0.199935
+Linear Probing;UserID;1000;0.304591
+Cuadratic Probing;UserID;1000;0.27482
+Double Hashing;UserID;1000;0.2544
+STL;UserID;1000;2.47288
+Hashing Abierto;UserID;5000;0.877313
+Linear Probing;UserID;5000;1.61003
+Cuadratic Probing;UserID;5000;1.48106
+Double Hashing;UserID;5000;1.5127
+STL;UserID;5000;12.7676
+Hashing Abierto;UserID;10000;1.71946
+Linear Probing;UserID;10000;3.32654
+Cuadratic Probing;UserID;10000;3.43276
+Double Hashing;UserID;10000;3.43152
+STL;UserID;10000;25.6726
+Hashing Abierto;UserID;15000;2.61402
+Linear Probing;UserID;15000;5.29843
+Cuadratic Probing;UserID;15000;5.25169
+Double Hashing;UserID;15000;5.23621
+STL;UserID;15000;37.9057
+Hashing Abierto;UserID;20000;3.60986
+Linear Probing;UserID;20000;8.40651
+Cuadratic Probing;UserID;20000;8.27631
+Double Hashing;UserID;20000;8.21216
+STL;UserID;20000;50.3915
+Hashing Abierto;UserID;21070;3.89239
+Linear Probing;UserID;21070;9.63745
+Cuadratic Probing;UserID;21070;9.53458
+Double Hashing;UserID;21070;9.4274
+STL;UserID;21070;52.9004
+Hashing Abierto;Username;1000;0.330966
+Linear Probing;Username;1000;0.474978
+Cuadratic Probing;Username;1000;0.428826
+Double Hashing;Username;1000;0.519038
+STL;Username;1000;2.68184
+Hashing Abierto;Username;5000;1.60992
+Linear Probing;Username;5000;2.42192
+Cuadratic Probing;Username;5000;2.50648
+Double Hashing;Username;5000;2.86615
+STL;Username;5000;13.8204
+Hashing Abierto;Username;10000;3.06585
+Linear Probing;Username;10000;5.15163
+Cuadratic Probing;Username;10000;5.16843
+Double Hashing;Username;10000;6.26254
+STL;Username;10000;29.3132
+Hashing Abierto;Username;15000;4.69744
+Linear Probing;Username;15000;7.98766
+Cuadratic Probing;Username;15000;8.06385
+Double Hashing;Username;15000;9.64217
+STL;Username;15000;42.6618
+Hashing Abierto;Username;20000;6.39622
+Linear Probing;Username;20000;12.1969
+Cuadratic Probing;Username;20000;12.1123
+Double Hashing;Username;20000;14.3771
+STL;Username;20000;55.3449
+Hashing Abierto;Username;21070;6.7218
+Linear Probing;Username;21070;13.8269
+Cuadratic Probing;Username;21070;13.4444
+Double Hashing;Username;21070;15.9548
+STL;Username;21070;58.9718
+Hashing Abierto;UserID;1000;0.19797
+Linear Probing;UserID;1000;0.361097
+Cuadratic Probing;UserID;1000;0.26287
+Double Hashing;UserID;1000;0.245778
+STL;UserID;1000;2.39147
+Hashing Abierto;UserID;5000;0.878882
+Linear Probing;UserID;5000;1.57499
+Cuadratic Probing;UserID;5000;1.57602
+Double Hashing;UserID;5000;1.42342
+STL;UserID;5000;12.6787
+Hashing Abierto;UserID;10000;1.8383
+Linear Probing;UserID;10000;3.3479
+Cuadratic Probing;UserID;10000;3.39114
+Double Hashing;UserID;10000;3.4138
+STL;UserID;10000;25.3676
+Hashing Abierto;UserID;15000;2.62962
+Linear Probing;UserID;15000;5.29277
+Cuadratic Probing;UserID;15000;5.39224
+Double Hashing;UserID;15000;5.47941
+STL;UserID;15000;38.3788
+Hashing Abierto;UserID;20000;3.61974
+Linear Probing;UserID;20000;8.33733
+Cuadratic Probing;UserID;20000;8.09397
+Double Hashing;UserID;20000;8.14569
+STL;UserID;20000;52.0416
+Hashing Abierto;UserID;21070;3.76525
+Linear Probing;UserID;21070;9.43998
+Cuadratic Probing;UserID;21070;9.1608
+Double Hashing;UserID;21070;9.18858
+STL;UserID;21070;52.6211
+Hashing Abierto;Username;1000;0.330899
+Linear Probing;Username;1000;0.475418
+Cuadratic Probing;Username;1000;0.441448
+Double Hashing;Username;1000;0.579651
+STL;Username;1000;2.59012
+Hashing Abierto;Username;5000;1.53756
+Linear Probing;Username;5000;2.47476
+Cuadratic Probing;Username;5000;2.39311
+Double Hashing;Username;5000;2.8447
+STL;Username;5000;13.4902
+Hashing Abierto;Username;10000;3.08393
+Linear Probing;Username;10000;5.06991
+Cuadratic Probing;Username;10000;5.22969
+Double Hashing;Username;10000;6.35553
+STL;Username;10000;28.1306
+Hashing Abierto;Username;15000;4.77066
+Linear Probing;Username;15000;8.01538
+Cuadratic Probing;Username;15000;8.10201
+Double Hashing;Username;15000;9.83745
+STL;Username;15000;41.8756
+Hashing Abierto;Username;20000;6.29088
+Linear Probing;Username;20000;12.1241
+Cuadratic Probing;Username;20000;11.9762
+Double Hashing;Username;20000;14.2376
+STL;Username;20000;55.0479
+Hashing Abierto;Username;21070;6.81008
+Linear Probing;Username;21070;14.1035
+Cuadratic Probing;Username;21070;13.4595
+Double Hashing;Username;21070;15.9327
+STL;Username;21070;57.8963
+Hashing Abierto;UserID;1000;0.20967
+Linear Probing;UserID;1000;0.306792
+Cuadratic Probing;UserID;1000;0.272757
+Double Hashing;UserID;1000;0.291414
+STL;UserID;1000;2.47066
+Hashing Abierto;UserID;5000;0.892332
+Linear Probing;UserID;5000;1.74649
+Cuadratic Probing;UserID;5000;1.55943
+Double Hashing;UserID;5000;1.44502
+STL;UserID;5000;13.4233
+Hashing Abierto;UserID;10000;1.73658
+Linear Probing;UserID;10000;3.43027
+Cuadratic Probing;UserID;10000;3.414
+Double Hashing;UserID;10000;3.45976
+STL;UserID;10000;26.0916
+Hashing Abierto;UserID;15000;2.68325
+Linear Probing;UserID;15000;5.3817
+Cuadratic Probing;UserID;15000;5.52097
+Double Hashing;UserID;15000;5.43563
+STL;UserID;15000;38.1682
+Hashing Abierto;UserID;20000;3.5717
+Linear Probing;UserID;20000;8.26564
+Cuadratic Probing;UserID;20000;8.1732
+Double Hashing;UserID;20000;8.22183
+STL;UserID;20000;51.2616
+Hashing Abierto;UserID;21070;3.87923
+Linear Probing;UserID;21070;9.71422
+Cuadratic Probing;UserID;21070;9.11745
+Double Hashing;UserID;21070;9.14614
+STL;UserID;21070;52.3555
+Hashing Abierto;Username;1000;0.331321
+Linear Probing;Username;1000;0.5626
+Cuadratic Probing;Username;1000;0.486746
+Double Hashing;Username;1000;0.528152
+STL;Username;1000;2.67064
+Hashing Abierto;Username;5000;1.5672
+Linear Probing;Username;5000;2.47887
+Cuadratic Probing;Username;5000;2.44692
+Double Hashing;Username;5000;2.79976
+STL;Username;5000;13.8179
+Hashing Abierto;Username;10000;3.1174
+Linear Probing;Username;10000;5.03854
+Cuadratic Probing;Username;10000;5.06754
+Double Hashing;Username;10000;6.10388
+STL;Username;10000;28.3916
+Hashing Abierto;Username;15000;4.65723
+Linear Probing;Username;15000;8.11536
+Cuadratic Probing;Username;15000;8.40764
+Double Hashing;Username;15000;9.84775
+STL;Username;15000;42.0722
+Hashing Abierto;Username;20000;6.70469
+Linear Probing;Username;20000;12.7686
+Cuadratic Probing;Username;20000;12.5676
+Double Hashing;Username;20000;14.7056
+STL;Username;20000;56.6864
+Hashing Abierto;Username;21070;6.79995
+Linear Probing;Username;21070;13.7814
+Cuadratic Probing;Username;21070;13.5226
+Double Hashing;Username;21070;15.8497
+STL;Username;21070;59.2684
+Hashing Abierto;UserID;1000;0.197024
+Linear Probing;UserID;1000;0.29365
+Cuadratic Probing;UserID;1000;0.26674
+Double Hashing;UserID;1000;0.246388
+STL;UserID;1000;2.39778
+Hashing Abierto;UserID;5000;0.880242
+Linear Probing;UserID;5000;1.64241
+Cuadratic Probing;UserID;5000;1.65141
+Double Hashing;UserID;5000;1.42123
+STL;UserID;5000;12.5769
+Hashing Abierto;UserID;10000;1.80663
+Linear Probing;UserID;10000;3.30612
+Cuadratic Probing;UserID;10000;3.28776
+Double Hashing;UserID;10000;3.2876
+STL;UserID;10000;25.403
+Hashing Abierto;UserID;15000;2.64195
+Linear Probing;UserID;15000;5.28495
+Cuadratic Probing;UserID;15000;5.39881
+Double Hashing;UserID;15000;5.56062
+STL;UserID;15000;38.7649
+Hashing Abierto;UserID;20000;3.59521
+Linear Probing;UserID;20000;8.35
+Cuadratic Probing;UserID;20000;8.34317
+Double Hashing;UserID;20000;8.12314
+STL;UserID;20000;50.1412
+Hashing Abierto;UserID;21070;3.81499
+Linear Probing;UserID;21070;9.41618
+Cuadratic Probing;UserID;21070;9.19009
+Double Hashing;UserID;21070;9.30623
+STL;UserID;21070;53.543
+Hashing Abierto;Username;1000;0.33029
+Linear Probing;Username;1000;0.460431
+Cuadratic Probing;Username;1000;0.470331
+Double Hashing;Username;1000;0.515952
+STL;Username;1000;2.66874
+Hashing Abierto;Username;5000;1.53812
+Linear Probing;Username;5000;2.46546
+Cuadratic Probing;Username;5000;2.43672
+Double Hashing;Username;5000;2.94092
+STL;Username;5000;13.6373
+Hashing Abierto;Username;10000;3.14857
+Linear Probing;Username;10000;5.36626
+Cuadratic Probing;Username;10000;5.08117
+Double Hashing;Username;10000;6.22475
+STL;Username;10000;27.7821
+Hashing Abierto;Username;15000;4.72293
+Linear Probing;Username;15000;8.23273
+Cuadratic Probing;Username;15000;8.23447
+Double Hashing;Username;15000;9.92838
+STL;Username;15000;42.299
+Hashing Abierto;Username;20000;6.60305
+Linear Probing;Username;20000;12.3608
+Cuadratic Probing;Username;20000;12.1793
+Double Hashing;Username;20000;14.4194
+STL;Username;20000;57.2665
+Hashing Abierto;Username;21070;6.69332
+Linear Probing;Username;21070;13.8874
+Cuadratic Probing;Username;21070;13.72
+Double Hashing;Username;21070;16.1217
+STL;Username;21070;58.4943
+Hashing Abierto;UserID;1000;0.230364
+Linear Probing;UserID;1000;0.295528
+Cuadratic Probing;UserID;1000;0.265388
+Double Hashing;UserID;1000;0.247081
+STL;UserID;1000;2.45337
+Hashing Abierto;UserID;5000;0.875562
+Linear Probing;UserID;5000;1.65979
+Cuadratic Probing;UserID;5000;1.63215
+Double Hashing;UserID;5000;1.5185
+STL;UserID;5000;12.6281
+Hashing Abierto;UserID;10000;1.69073
+Linear Probing;UserID;10000;3.32859
+Cuadratic Probing;UserID;10000;3.42706
+Double Hashing;UserID;10000;3.41011
+STL;UserID;10000;25.6527
+Hashing Abierto;UserID;15000;2.62469
+Linear Probing;UserID;15000;5.72719
+Cuadratic Probing;UserID;15000;5.71573
+Double Hashing;UserID;15000;5.91164
+STL;UserID;15000;38.113
+Hashing Abierto;UserID;20000;3.65872
+Linear Probing;UserID;20000;8.36777
+Cuadratic Probing;UserID;20000;8.42065
+Double Hashing;UserID;20000;8.39743
+STL;UserID;20000;50.1468
+Hashing Abierto;UserID;21070;3.80968
+Linear Probing;UserID;21070;9.74358
+Cuadratic Probing;UserID;21070;9.13329
+Double Hashing;UserID;21070;9.01889
+STL;UserID;21070;52.3938
+Hashing Abierto;Username;1000;0.3259
+Linear Probing;Username;1000;0.537198
+Cuadratic Probing;Username;1000;0.433548
+Double Hashing;Username;1000;0.550563
+STL;Username;1000;2.69102
+Hashing Abierto;Username;5000;1.55683
+Linear Probing;Username;5000;2.51447
+Cuadratic Probing;Username;5000;2.43281
+Double Hashing;Username;5000;2.79094
+STL;Username;5000;13.8647
+Hashing Abierto;Username;10000;3.09781
+Linear Probing;Username;10000;5.01264
+Cuadratic Probing;Username;10000;5.16347
+Double Hashing;Username;10000;6.12138
+STL;Username;10000;27.926
+Hashing Abierto;Username;15000;4.63664
+Linear Probing;Username;15000;8.06722
+Cuadratic Probing;Username;15000;8.13482
+Double Hashing;Username;15000;10.0069
+STL;Username;15000;43.1778
+Hashing Abierto;Username;20000;6.5632
+Linear Probing;Username;20000;11.9936
+Cuadratic Probing;Username;20000;12.0532
+Double Hashing;Username;20000;14.3979
+STL;Username;20000;54.9872
+Hashing Abierto;Username;21070;7.29845
+Linear Probing;Username;21070;13.8851
+Cuadratic Probing;Username;21070;13.621
+Double Hashing;Username;21070;15.8072
+STL;Username;21070;58.7415
+Hashing Abierto;UserID;1000;0.19701
+Linear Probing;UserID;1000;0.297633
+Cuadratic Probing;UserID;1000;0.264427
+Double Hashing;UserID;1000;0.249624
+STL;UserID;1000;2.52155
+Hashing Abierto;UserID;5000;0.875688
+Linear Probing;UserID;5000;1.60309
+Cuadratic Probing;UserID;5000;1.51926
+Double Hashing;UserID;5000;1.40747
+STL;UserID;5000;12.6746
+Hashing Abierto;UserID;10000;1.69612
+Linear Probing;UserID;10000;3.34499
+Cuadratic Probing;UserID;10000;3.4037
+Double Hashing;UserID;10000;3.35671
+STL;UserID;10000;25.5318
+Hashing Abierto;UserID;15000;2.66626
+Linear Probing;UserID;15000;5.21828
+Cuadratic Probing;UserID;15000;5.39486
+Double Hashing;UserID;15000;5.28417
+STL;UserID;15000;38.1948
+Hashing Abierto;UserID;20000;3.73581
+Linear Probing;UserID;20000;8.36444
+Cuadratic Probing;UserID;20000;8.43589
+Double Hashing;UserID;20000;8.40327
+STL;UserID;20000;50.5833
+Hashing Abierto;UserID;21070;3.83422
+Linear Probing;UserID;21070;9.54066
+Cuadratic Probing;UserID;21070;9.36308
+Double Hashing;UserID;21070;9.44381
+STL;UserID;21070;52.7944
+Hashing Abierto;Username;1000;0.329011
+Linear Probing;Username;1000;0.474179
+Cuadratic Probing;Username;1000;0.430328
+Double Hashing;Username;1000;0.578119
+STL;Username;1000;2.61197
+Hashing Abierto;Username;5000;1.5708
+Linear Probing;Username;5000;2.54738
+Cuadratic Probing;Username;5000;2.37041
+Double Hashing;Username;5000;2.87763
+STL;Username;5000;13.6289
+Hashing Abierto;Username;10000;3.1046
+Linear Probing;Username;10000;5.09997
+Cuadratic Probing;Username;10000;5.11221
+Double Hashing;Username;10000;6.2943
+STL;Username;10000;28.9165
+Hashing Abierto;Username;15000;4.65026
+Linear Probing;Username;15000;8.00828
+Cuadratic Probing;Username;15000;8.07967
+Double Hashing;Username;15000;9.71782
+STL;Username;15000;41.6689
+Hashing Abierto;Username;20000;7.0423
+Linear Probing;Username;20000;12.2167
+Cuadratic Probing;Username;20000;12.1388
+Double Hashing;Username;20000;14.2927
+STL;Username;20000;55.7074
+Hashing Abierto;Username;21070;6.71703
+Linear Probing;Username;21070;13.5656
+Cuadratic Probing;Username;21070;13.5398
+Double Hashing;Username;21070;16.0295
+STL;Username;21070;58.0171
+Hashing Abierto;UserID;1000;0.198106
+Linear Probing;UserID;1000;0.361382
+Cuadratic Probing;UserID;1000;0.265061
+Double Hashing;UserID;1000;0.248327
+STL;UserID;1000;2.42082
+Hashing Abierto;UserID;5000;0.966143
+Linear Probing;UserID;5000;1.55527
+Cuadratic Probing;UserID;5000;1.51843
+Double Hashing;UserID;5000;1.45795
+STL;UserID;5000;12.6133
+Hashing Abierto;UserID;10000;1.76463
+Linear Probing;UserID;10000;3.33994
+Cuadratic Probing;UserID;10000;3.29043
+Double Hashing;UserID;10000;3.39679
+STL;UserID;10000;25.9396
+Hashing Abierto;UserID;15000;2.64445
+Linear Probing;UserID;15000;5.24842
+Cuadratic Probing;UserID;15000;5.22417
+Double Hashing;UserID;15000;5.38232
+STL;UserID;15000;37.8005
+Hashing Abierto;UserID;20000;3.60559
+Linear Probing;UserID;20000;8.36178
+Cuadratic Probing;UserID;20000;8.35619
+Double Hashing;UserID;20000;8.35941
+STL;UserID;20000;51.3497
+Hashing Abierto;UserID;21070;3.8097
+Linear Probing;UserID;21070;9.56957
+Cuadratic Probing;UserID;21070;9.54917
+Double Hashing;UserID;21070;9.43813
+STL;UserID;21070;52.7431
+Hashing Abierto;Username;1000;0.33092
+Linear Probing;Username;1000;0.474878
+Cuadratic Probing;Username;1000;0.518506
+Double Hashing;Username;1000;0.523028
+STL;Username;1000;2.59029
+Hashing Abierto;Username;5000;1.53194
+Linear Probing;Username;5000;2.49163
+Cuadratic Probing;Username;5000;2.36297
+Double Hashing;Username;5000;2.90845
+STL;Username;5000;13.8647
+Hashing Abierto;Username;10000;3.24948
+Linear Probing;Username;10000;5.50352
+Cuadratic Probing;Username;10000;5.13351
+Double Hashing;Username;10000;6.38296
+STL;Username;10000;27.8789
+Hashing Abierto;Username;15000;4.76689
+Linear Probing;Username;15000;8.15176
+Cuadratic Probing;Username;15000;8.24712
+Double Hashing;Username;15000;9.99642
+STL;Username;15000;42.6151
+Hashing Abierto;Username;20000;6.39407
+Linear Probing;Username;20000;12.2766
+Cuadratic Probing;Username;20000;12.3364
+Double Hashing;Username;20000;14.4943
+STL;Username;20000;55.1319
+Hashing Abierto;Username;21070;6.73133
+Linear Probing;Username;21070;13.6703
+Cuadratic Probing;Username;21070;13.7161
+Double Hashing;Username;21070;15.8573
+STL;Username;21070;58.8527
+Hashing Abierto;UserID;1000;0.195935
+Linear Probing;UserID;1000;0.307593
+Cuadratic Probing;UserID;1000;0.275744
+Double Hashing;UserID;1000;0.246754
+STL;UserID;1000;2.85665
+Hashing Abierto;UserID;5000;0.890354
+Linear Probing;UserID;5000;1.68632
+Cuadratic Probing;UserID;5000;1.5032
+Double Hashing;UserID;5000;1.51399
+STL;UserID;5000;12.7506
+Hashing Abierto;UserID;10000;1.74951
+Linear Probing;UserID;10000;3.38875
+Cuadratic Probing;UserID;10000;3.43987
+Double Hashing;UserID;10000;3.4488
+STL;UserID;10000;25.866
+Hashing Abierto;UserID;15000;2.63155
+Linear Probing;UserID;15000;5.47346
+Cuadratic Probing;UserID;15000;5.29392
+Double Hashing;UserID;15000;5.52465
+STL;UserID;15000;38.5402
+Hashing Abierto;UserID;20000;3.62461
+Linear Probing;UserID;20000;8.44942
+Cuadratic Probing;UserID;20000;8.40299
+Double Hashing;UserID;20000;8.44227
+STL;UserID;20000;50.3821
+Hashing Abierto;UserID;21070;3.84117
+Linear Probing;UserID;21070;9.66514
+Cuadratic Probing;UserID;21070;9.32364
+Double Hashing;UserID;21070;9.33645
+STL;UserID;21070;54.7931
+Hashing Abierto;Username;1000;0.324463
+Linear Probing;Username;1000;0.539636
+Cuadratic Probing;Username;1000;0.443536
+Double Hashing;Username;1000;0.51292
+STL;Username;1000;2.59042
+Hashing Abierto;Username;5000;1.57825
+Linear Probing;Username;5000;2.44977
+Cuadratic Probing;Username;5000;2.39194
+Double Hashing;Username;5000;2.80676
+STL;Username;5000;13.7966
+Hashing Abierto;Username;10000;3.24488
+Linear Probing;Username;10000;5.19014
+Cuadratic Probing;Username;10000;5.33071
+Double Hashing;Username;10000;6.36934
+STL;Username;10000;29.4759
+Hashing Abierto;Username;15000;4.85167
+Linear Probing;Username;15000;8.12385
+Cuadratic Probing;Username;15000;8.22508
+Double Hashing;Username;15000;9.81977
+STL;Username;15000;41.9387
+Hashing Abierto;Username;20000;6.48417
+Linear Probing;Username;20000;12.9039
+Cuadratic Probing;Username;20000;12.2642
+Double Hashing;Username;20000;14.3995
+STL;Username;20000;55.9053
+Hashing Abierto;Username;21070;6.71696
+Linear Probing;Username;21070;13.686
+Cuadratic Probing;Username;21070;13.5819
+Double Hashing;Username;21070;15.8684
+STL;Username;21070;58.3164
+Hashing Abierto;UserID;1000;0.197722
+Linear Probing;UserID;1000;0.296639
+Cuadratic Probing;UserID;1000;0.264707
+Double Hashing;UserID;1000;0.245297
+STL;UserID;1000;2.48965
+Hashing Abierto;UserID;5000;0.956757
+Linear Probing;UserID;5000;1.58582
+Cuadratic Probing;UserID;5000;1.51719
+Double Hashing;UserID;5000;1.48406
+STL;UserID;5000;12.6008
+Hashing Abierto;UserID;10000;1.79444
+Linear Probing;UserID;10000;3.29133
+Cuadratic Probing;UserID;10000;3.34252
+Double Hashing;UserID;10000;3.46073
+STL;UserID;10000;25.8177
+Hashing Abierto;UserID;15000;2.63629
+Linear Probing;UserID;15000;5.30194
+Cuadratic Probing;UserID;15000;5.29081
+Double Hashing;UserID;15000;5.48316
+STL;UserID;15000;38.4288
+Hashing Abierto;UserID;20000;3.59051
+Linear Probing;UserID;20000;8.2352
+Cuadratic Probing;UserID;20000;8.24876
+Double Hashing;UserID;20000;8.18654
+STL;UserID;20000;50.5408
+Hashing Abierto;UserID;21070;3.80064
+Linear Probing;UserID;21070;9.52133
+Cuadratic Probing;UserID;21070;9.24779
+Double Hashing;UserID;21070;9.30128
+STL;UserID;21070;54.3238
+Hashing Abierto;Username;1000;0.332219
+Linear Probing;Username;1000;0.473059
+Cuadratic Probing;Username;1000;0.434615
+Double Hashing;Username;1000;0.521072
+STL;Username;1000;2.62717
+Hashing Abierto;Username;5000;1.53842
+Linear Probing;Username;5000;2.55492
+Cuadratic Probing;Username;5000;2.49019
+Double Hashing;Username;5000;2.88419
+STL;Username;5000;13.8276
+Hashing Abierto;Username;10000;3.0868
+Linear Probing;Username;10000;5.09982
+Cuadratic Probing;Username;10000;5.14655
+Double Hashing;Username;10000;6.21169
+STL;Username;10000;28.4987
+Hashing Abierto;Username;15000;4.63256
+Linear Probing;Username;15000;7.99536
+Cuadratic Probing;Username;15000;8.11575
+Double Hashing;Username;15000;9.74206
+STL;Username;15000;41.9589
+Hashing Abierto;Username;20000;6.32681
+Linear Probing;Username;20000;12.2736
+Cuadratic Probing;Username;20000;12.2564
+Double Hashing;Username;20000;14.3767
+STL;Username;20000;55.7633
+Hashing Abierto;Username;21070;6.74119
+Linear Probing;Username;21070;13.7606
+Cuadratic Probing;Username;21070;13.6464
+Double Hashing;Username;21070;15.9789
+STL;Username;21070;59.3839
+Hashing Abierto;UserID;1000;0.192996
+Linear Probing;UserID;1000;0.298949
+Cuadratic Probing;UserID;1000;0.279451
+Double Hashing;UserID;1000;0.251838
+STL;UserID;1000;2.4921
+Hashing Abierto;UserID;5000;0.874711
+Linear Probing;UserID;5000;1.6732
+Cuadratic Probing;UserID;5000;1.50361
+Double Hashing;UserID;5000;1.40559
+STL;UserID;5000;12.6627
+Hashing Abierto;UserID;10000;1.70433
+Linear Probing;UserID;10000;3.32366
+Cuadratic Probing;UserID;10000;3.43605
+Double Hashing;UserID;10000;3.42476
+STL;UserID;10000;25.6271
+Hashing Abierto;UserID;15000;2.67472
+Linear Probing;UserID;15000;5.41265
+Cuadratic Probing;UserID;15000;6.13342
+Double Hashing;UserID;15000;5.72751
+STL;UserID;15000;38.3571
+Hashing Abierto;UserID;20000;3.69064
+Linear Probing;UserID;20000;8.58776
+Cuadratic Probing;UserID;20000;8.39413
+Double Hashing;UserID;20000;8.29271
+STL;UserID;20000;50.3845
+Hashing Abierto;UserID;21070;3.78324
+Linear Probing;UserID;21070;9.56987
+Cuadratic Probing;UserID;21070;9.10642
+Double Hashing;UserID;21070;9.16434
+STL;UserID;21070;53.001
+Hashing Abierto;Username;1000;0.328142
+Linear Probing;Username;1000;0.471814
+Cuadratic Probing;Username;1000;0.438308
+Double Hashing;Username;1000;0.515673
+STL;Username;1000;2.70095
+Hashing Abierto;Username;5000;1.8521
+Linear Probing;Username;5000;2.4075
+Cuadratic Probing;Username;5000;2.45185
+Double Hashing;Username;5000;2.93129
+STL;Username;5000;13.8704
+Hashing Abierto;Username;10000;3.07697
+Linear Probing;Username;10000;5.3097
+Cuadratic Probing;Username;10000;5.16179
+Double Hashing;Username;10000;6.41302
+STL;Username;10000;28.5057
+Hashing Abierto;Username;15000;4.81878
+Linear Probing;Username;15000;8.2053
+Cuadratic Probing;Username;15000;8.30678
+Double Hashing;Username;15000;10.0109
+STL;Username;15000;42.1583
+Hashing Abierto;Username;20000;6.40681
+Linear Probing;Username;20000;12.4843
+Cuadratic Probing;Username;20000;12.3813
+Double Hashing;Username;20000;14.709
+STL;Username;20000;55.5212
+Hashing Abierto;Username;21070;6.78818
+Linear Probing;Username;21070;13.9353
+Cuadratic Probing;Username;21070;13.7706
+Double Hashing;Username;21070;16.0095
+STL;Username;21070;58.7275
+Hashing Abierto;UserID;1000;0.197317
+Linear Probing;UserID;1000;0.292523
+Cuadratic Probing;UserID;1000;0.270593
+Double Hashing;UserID;1000;0.24466
+STL;UserID;1000;2.52996
+Hashing Abierto;UserID;5000;0.960206
+Linear Probing;UserID;5000;1.68985
+Cuadratic Probing;UserID;5000;1.5315
+Double Hashing;UserID;5000;1.41992
+STL;UserID;5000;12.6558
+Hashing Abierto;UserID;10000;1.70504
+Linear Probing;UserID;10000;3.34955
+Cuadratic Probing;UserID;10000;3.39179
+Double Hashing;UserID;10000;3.43093
+STL;UserID;10000;25.9364
+Hashing Abierto;UserID;15000;2.56517
+Linear Probing;UserID;15000;5.32277
+Cuadratic Probing;UserID;15000;5.23881
+Double Hashing;UserID;15000;5.3521
+STL;UserID;15000;38.1269
+Hashing Abierto;UserID;20000;3.51137
+Linear Probing;UserID;20000;8.36038
+Cuadratic Probing;UserID;20000;8.14944
+Double Hashing;UserID;20000;8.09308
+STL;UserID;20000;50.5429
+Hashing Abierto;UserID;21070;3.76323
+Linear Probing;UserID;21070;9.74256
+Cuadratic Probing;UserID;21070;9.52999
+Double Hashing;UserID;21070;9.36654
+STL;UserID;21070;52.7626
+Hashing Abierto;Username;1000;0.32988
+Linear Probing;Username;1000;0.54119
+Cuadratic Probing;Username;1000;0.437336
+Double Hashing;Username;1000;0.515954
+STL;Username;1000;2.58636
+Hashing Abierto;Username;5000;1.56905
+Linear Probing;Username;5000;2.48694
+Cuadratic Probing;Username;5000;2.39825
+Double Hashing;Username;5000;2.77829
+STL;Username;5000;13.7817
+Hashing Abierto;Username;10000;3.07313
+Linear Probing;Username;10000;5.3084
+Cuadratic Probing;Username;10000;5.13143
+Double Hashing;Username;10000;6.19043
+STL;Username;10000;29.3432
+Hashing Abierto;Username;15000;4.77996
+Linear Probing;Username;15000;7.96392
+Cuadratic Probing;Username;15000;8.00387
+Double Hashing;Username;15000;9.72081
+STL;Username;15000;42.2624
+Hashing Abierto;Username;20000;6.34495
+Linear Probing;Username;20000;12.0627
+Cuadratic Probing;Username;20000;12.2231
+Double Hashing;Username;20000;14.2847
+STL;Username;20000;55.5209
+Hashing Abierto;Username;21070;6.64772
+Linear Probing;Username;21070;13.5958
+Cuadratic Probing;Username;21070;13.4867
+Double Hashing;Username;21070;15.6862
+STL;Username;21070;58.6012
+Hashing Abierto;UserID;1000;0.197416
+Linear Probing;UserID;1000;0.336788
+Cuadratic Probing;UserID;1000;0.277349
+Double Hashing;UserID;1000;0.249444
+STL;UserID;1000;2.55418
+Hashing Abierto;UserID;5000;0.871659
+Linear Probing;UserID;5000;1.61466
+Cuadratic Probing;UserID;5000;1.49685
+Double Hashing;UserID;5000;1.39611
+STL;UserID;5000;12.7633
+Hashing Abierto;UserID;10000;1.70686
+Linear Probing;UserID;10000;3.32034
+Cuadratic Probing;UserID;10000;3.30646
+Double Hashing;UserID;10000;3.482
+STL;UserID;10000;25.3939
+Hashing Abierto;UserID;15000;2.63579
+Linear Probing;UserID;15000;5.26611
+Cuadratic Probing;UserID;15000;5.35397
+Double Hashing;UserID;15000;5.39962
+STL;UserID;15000;38.5247
+Hashing Abierto;UserID;20000;3.58515
+Linear Probing;UserID;20000;8.20725
+Cuadratic Probing;UserID;20000;8.09864
+Double Hashing;UserID;20000;8.10292
+STL;UserID;20000;52.1738
+Hashing Abierto;UserID;21070;3.84103
+Linear Probing;UserID;21070;9.79878
+Cuadratic Probing;UserID;21070;9.5087
+Double Hashing;UserID;21070;9.48826
+STL;UserID;21070;53.293
+Hashing Abierto;Username;1000;0.331785
+Linear Probing;Username;1000;0.460058
+Cuadratic Probing;Username;1000;0.422813
+Double Hashing;Username;1000;0.515854
+STL;Username;1000;2.67468
+Hashing Abierto;Username;5000;1.59688
+Linear Probing;Username;5000;2.42518
+Cuadratic Probing;Username;5000;2.42442
+Double Hashing;Username;5000;2.94335
+STL;Username;5000;13.8044
+Hashing Abierto;Username;10000;3.10406
+Linear Probing;Username;10000;4.95972
+Cuadratic Probing;Username;10000;5.06534
+Double Hashing;Username;10000;6.19082
+STL;Username;10000;27.8598
+Hashing Abierto;Username;15000;4.6494
+Linear Probing;Username;15000;7.93909
+Cuadratic Probing;Username;15000;7.97888
+Double Hashing;Username;15000;9.69926
+STL;Username;15000;42.1572
+Hashing Abierto;Username;20000;6.38298
+Linear Probing;Username;20000;12.414
+Cuadratic Probing;Username;20000;12.2957
+Double Hashing;Username;20000;14.6432
+STL;Username;20000;55.9906
+Hashing Abierto;Username;21070;6.73489
+Linear Probing;Username;21070;13.8906
+Cuadratic Probing;Username;21070;13.5146
+Double Hashing;Username;21070;16.4216
+STL;Username;21070;58.6496
+Hashing Abierto;UserID;1000;0.200071
+Linear Probing;UserID;1000;0.322264
+Cuadratic Probing;UserID;1000;0.336595
+Double Hashing;UserID;1000;0.247204
+STL;UserID;1000;2.43237
+Hashing Abierto;UserID;5000;0.941337
+Linear Probing;UserID;5000;1.57683
+Cuadratic Probing;UserID;5000;1.53294
+Double Hashing;UserID;5000;1.49541
+STL;UserID;5000;12.7871
+Hashing Abierto;UserID;10000;1.76555
+Linear Probing;UserID;10000;3.33962
+Cuadratic Probing;UserID;10000;3.24638
+Double Hashing;UserID;10000;3.38468
+STL;UserID;10000;25.5552
+Hashing Abierto;UserID;15000;2.60675
+Linear Probing;UserID;15000;5.33781
+Cuadratic Probing;UserID;15000;5.36564
+Double Hashing;UserID;15000;5.44738
+STL;UserID;15000;38.0832
+Hashing Abierto;UserID;20000;3.55467
+Linear Probing;UserID;20000;8.37372
+Cuadratic Probing;UserID;20000;8.31686
+Double Hashing;UserID;20000;8.38189
+STL;UserID;20000;49.7577
+Hashing Abierto;UserID;21070;3.81671
+Linear Probing;UserID;21070;9.65341
+Cuadratic Probing;UserID;21070;9.29659
+Double Hashing;UserID;21070;9.20318
+STL;UserID;21070;52.7015
+Hashing Abierto;Username;1000;0.327518
+Linear Probing;Username;1000;0.539323
+Cuadratic Probing;Username;1000;0.431944
+Double Hashing;Username;1000;0.514437
+STL;Username;1000;2.63008
+Hashing Abierto;Username;5000;1.6117
+Linear Probing;Username;5000;2.47945
+Cuadratic Probing;Username;5000;2.47435
+Double Hashing;Username;5000;2.85873
+STL;Username;5000;13.7859
+Hashing Abierto;Username;10000;3.08898
+Linear Probing;Username;10000;5.01498
+Cuadratic Probing;Username;10000;5.07767
+Double Hashing;Username;10000;6.13173
+STL;Username;10000;27.8534
+Hashing Abierto;Username;15000;4.75495
+Linear Probing;Username;15000;8.1151
+Cuadratic Probing;Username;15000;7.99343
+Double Hashing;Username;15000;9.55559
+STL;Username;15000;41.966
+Hashing Abierto;Username;20000;6.87127
+Linear Probing;Username;20000;12.8975
+Cuadratic Probing;Username;20000;12.5769
+Double Hashing;Username;20000;14.6134
+STL;Username;20000;55.8967
+Hashing Abierto;Username;21070;6.7157
+Linear Probing;Username;21070;13.5813
+Cuadratic Probing;Username;21070;13.5242
+Double Hashing;Username;21070;15.8185
+STL;Username;21070;58.7098
+Hashing Abierto;UserID;1000;0.197102
+Linear Probing;UserID;1000;0.292994
+Cuadratic Probing;UserID;1000;0.2679
+Double Hashing;UserID;1000;0.247917
+STL;UserID;1000;2.4602
+Hashing Abierto;UserID;5000;0.874949
+Linear Probing;UserID;5000;1.59727
+Cuadratic Probing;UserID;5000;1.63411
+Double Hashing;UserID;5000;1.41029
+STL;UserID;5000;12.7449
+Hashing Abierto;UserID;10000;1.74456
+Linear Probing;UserID;10000;3.36165
+Cuadratic Probing;UserID;10000;3.31107
+Double Hashing;UserID;10000;3.41609
+STL;UserID;10000;26.27
+Hashing Abierto;UserID;15000;2.63903
+Linear Probing;UserID;15000;5.56484
+Cuadratic Probing;UserID;15000;5.22108
+Double Hashing;UserID;15000;5.38698
+STL;UserID;15000;38.1583
+Hashing Abierto;UserID;20000;3.55266
+Linear Probing;UserID;20000;8.21971
+Cuadratic Probing;UserID;20000;8.2525
+Double Hashing;UserID;20000;8.12658
+STL;UserID;20000;50.5593
+Hashing Abierto;UserID;21070;3.76695
+Linear Probing;UserID;21070;9.7697
+Cuadratic Probing;UserID;21070;9.42555
+Double Hashing;UserID;21070;9.4278
+STL;UserID;21070;54.413
+Hashing Abierto;Username;1000;0.335165
+Linear Probing;Username;1000;0.47313
+Cuadratic Probing;Username;1000;0.444111
+Double Hashing;Username;1000;0.525728
+STL;Username;1000;2.67981
+Hashing Abierto;Username;5000;1.60921
+Linear Probing;Username;5000;2.46897
+Cuadratic Probing;Username;5000;2.35273
+Double Hashing;Username;5000;2.87555
+STL;Username;5000;13.8953
+Hashing Abierto;Username;10000;3.1567
+Linear Probing;Username;10000;5.14761
+Cuadratic Probing;Username;10000;5.17074
+Double Hashing;Username;10000;6.35192
+STL;Username;10000;28.8874
+Hashing Abierto;Username;15000;4.68047
+Linear Probing;Username;15000;8.1282
+Cuadratic Probing;Username;15000;8.0412
+Double Hashing;Username;15000;9.58122
+STL;Username;15000;41.8233
+Hashing Abierto;Username;20000;6.29966
+Linear Probing;Username;20000;12.2459
+Cuadratic Probing;Username;20000;12.2411
+Double Hashing;Username;20000;14.283
+STL;Username;20000;56.46
+Hashing Abierto;Username;21070;6.70654
+Linear Probing;Username;21070;13.4909
+Cuadratic Probing;Username;21070;13.7209
+Double Hashing;Username;21070;15.7003
+STL;Username;21070;58.2028
+Hashing Abierto;UserID;1000;0.194749
+Linear Probing;UserID;1000;0.296082
+Cuadratic Probing;UserID;1000;0.272724
+Double Hashing;UserID;1000;0.249245
+STL;UserID;1000;2.46641
+Hashing Abierto;UserID;5000;0.882028
+Linear Probing;UserID;5000;1.62031
+Cuadratic Probing;UserID;5000;1.57519
+Double Hashing;UserID;5000;1.49123
+STL;UserID;5000;12.7288
+Hashing Abierto;UserID;10000;1.76942
+Linear Probing;UserID;10000;3.35504
+Cuadratic Probing;UserID;10000;3.43738
+Double Hashing;UserID;10000;3.35668
+STL;UserID;10000;25.6095
+Hashing Abierto;UserID;15000;2.5845
+Linear Probing;UserID;15000;5.37499
+Cuadratic Probing;UserID;15000;6.007
+Double Hashing;UserID;15000;5.83009
+STL;UserID;15000;38.2984
+Hashing Abierto;UserID;20000;3.60415
+Linear Probing;UserID;20000;8.35746
+Cuadratic Probing;UserID;20000;8.51078
+Double Hashing;UserID;20000;8.17309
+STL;UserID;20000;50.4795
+Hashing Abierto;UserID;21070;3.73449
+Linear Probing;UserID;21070;9.52642
+Cuadratic Probing;UserID;21070;9.15892
+Double Hashing;UserID;21070;9.08879
+STL;UserID;21070;53.1418
+Hashing Abierto;Username;1000;0.330878
+Linear Probing;Username;1000;0.472146
+Cuadratic Probing;Username;1000;0.440812
+Double Hashing;Username;1000;0.551235
+STL;Username;1000;2.6584
+Hashing Abierto;Username;5000;1.64387
+Linear Probing;Username;5000;2.44435
+Cuadratic Probing;Username;5000;2.39896
+Double Hashing;Username;5000;2.87842
+STL;Username;5000;13.8823
+Hashing Abierto;Username;10000;3.13635
+Linear Probing;Username;10000;5.15739
+Cuadratic Probing;Username;10000;5.1263
+Double Hashing;Username;10000;6.34919
+STL;Username;10000;27.9187
+Hashing Abierto;Username;15000;4.71767
+Linear Probing;Username;15000;8.03232
+Cuadratic Probing;Username;15000;7.9729
+Double Hashing;Username;15000;9.62158
+STL;Username;15000;42.5151
+Hashing Abierto;Username;20000;6.41508
+Linear Probing;Username;20000;12.1777
+Cuadratic Probing;Username;20000;12.0952
+Double Hashing;Username;20000;14.4462
+STL;Username;20000;55.7692
+Hashing Abierto;Username;21070;7.04606
+Linear Probing;Username;21070;13.8664
+Cuadratic Probing;Username;21070;13.5137
+Double Hashing;Username;21070;15.8019
+STL;Username;21070;58.1519
+Hashing Abierto;UserID;1000;0.19594
+Linear Probing;UserID;1000;0.299223
+Cuadratic Probing;UserID;1000;0.268688
+Double Hashing;UserID;1000;0.245659
+STL;UserID;1000;2.50955
+Hashing Abierto;UserID;5000;0.879608
+Linear Probing;UserID;5000;1.5739
+Cuadratic Probing;UserID;5000;1.55514
+Double Hashing;UserID;5000;1.48842
+STL;UserID;5000;12.76
+Hashing Abierto;UserID;10000;1.75522
+Linear Probing;UserID;10000;3.29072
+Cuadratic Probing;UserID;10000;3.33836
+Double Hashing;UserID;10000;3.3218
+STL;UserID;10000;25.291
+Hashing Abierto;UserID;15000;2.61955
+Linear Probing;UserID;15000;5.53118
+Cuadratic Probing;UserID;15000;5.45537
+Double Hashing;UserID;15000;5.61288
+STL;UserID;15000;37.7096
+Hashing Abierto;UserID;20000;3.58934
+Linear Probing;UserID;20000;8.31509
+Cuadratic Probing;UserID;20000;8.11541
+Double Hashing;UserID;20000;8.05164
+STL;UserID;20000;49.9784
+Hashing Abierto;UserID;21070;3.80599
+Linear Probing;UserID;21070;9.69365
+Cuadratic Probing;UserID;21070;9.5161
+Double Hashing;UserID;21070;9.57163
+STL;UserID;21070;52.2453
+Hashing Abierto;Username;1000;0.331202
+Linear Probing;Username;1000;0.494768
+Cuadratic Probing;Username;1000;0.504932
+Double Hashing;Username;1000;0.544601
+STL;Username;1000;2.68671
+Hashing Abierto;Username;5000;1.57832
+Linear Probing;Username;5000;2.50748
+Cuadratic Probing;Username;5000;2.48311
+Double Hashing;Username;5000;2.77913
+STL;Username;5000;13.7271
+Hashing Abierto;Username;10000;3.11246
+Linear Probing;Username;10000;5.04085
+Cuadratic Probing;Username;10000;5.02966
+Double Hashing;Username;10000;6.15949
+STL;Username;10000;29.3266
+Hashing Abierto;Username;15000;4.73877
+Linear Probing;Username;15000;8.20046
+Cuadratic Probing;Username;15000;8.12436
+Double Hashing;Username;15000;10.0297
+STL;Username;15000;42.3159
+Hashing Abierto;Username;20000;6.39955
+Linear Probing;Username;20000;12.101
+Cuadratic Probing;Username;20000;12.1756
+Double Hashing;Username;20000;14.3287
+STL;Username;20000;55.3249
+Hashing Abierto;Username;21070;6.61284
+Linear Probing;Username;21070;13.8598
+Cuadratic Probing;Username;21070;14.4697
+Double Hashing;Username;21070;16.2033
+STL;Username;21070;58.825
+Hashing Abierto;UserID;1000;0.197119
+Linear Probing;UserID;1000;0.295019
+Cuadratic Probing;UserID;1000;0.295194
+Double Hashing;UserID;1000;0.282408
+STL;UserID;1000;2.42592
+Hashing Abierto;UserID;5000;0.928021
+Linear Probing;UserID;5000;1.56072
+Cuadratic Probing;UserID;5000;1.53855
+Double Hashing;UserID;5000;1.54243
+STL;UserID;5000;13.2864
+Hashing Abierto;UserID;10000;1.77452
+Linear Probing;UserID;10000;3.48064
+Cuadratic Probing;UserID;10000;3.33767
+Double Hashing;UserID;10000;3.35762
+STL;UserID;10000;26.641
+Hashing Abierto;UserID;15000;2.63751
+Linear Probing;UserID;15000;5.27922
+Cuadratic Probing;UserID;15000;5.30055
+Double Hashing;UserID;15000;5.29641
+STL;UserID;15000;38.2328
+Hashing Abierto;UserID;20000;3.55274
+Linear Probing;UserID;20000;8.17047
+Cuadratic Probing;UserID;20000;8.13131
+Double Hashing;UserID;20000;8.08828
+STL;UserID;20000;52.1739
+Hashing Abierto;UserID;21070;3.76324
+Linear Probing;UserID;21070;9.60823
+Cuadratic Probing;UserID;21070;9.41173
+Double Hashing;UserID;21070;9.38162
+STL;UserID;21070;53.0896
+Hashing Abierto;Username;1000;0.391487
+Linear Probing;Username;1000;0.482351
+Cuadratic Probing;Username;1000;0.440881
+Double Hashing;Username;1000;0.51529
+STL;Username;1000;2.64187
+Hashing Abierto;Username;5000;1.53929
+Linear Probing;Username;5000;2.54148
+Cuadratic Probing;Username;5000;2.43149
+Double Hashing;Username;5000;2.80496
+STL;Username;5000;13.9237
+Hashing Abierto;Username;10000;3.09021
+Linear Probing;Username;10000;5.14442
+Cuadratic Probing;Username;10000;5.08236
+Double Hashing;Username;10000;6.28926
+STL;Username;10000;28.1881
+Hashing Abierto;Username;15000;4.7296
+Linear Probing;Username;15000;8.14588
+Cuadratic Probing;Username;15000;8.47938
+Double Hashing;Username;15000;9.76877
+STL;Username;15000;41.495
+Hashing Abierto;Username;20000;6.42748
+Linear Probing;Username;20000;12.0354
+Cuadratic Probing;Username;20000;12.0002
+Double Hashing;Username;20000;14.101
+STL;Username;20000;56.5625
+Hashing Abierto;Username;21070;6.65575
+Linear Probing;Username;21070;13.8006
+Cuadratic Probing;Username;21070;13.836
+Double Hashing;Username;21070;16.1696
+STL;Username;21070;58.8369
+Hashing Abierto;UserID;1000;0.197915
+Linear Probing;UserID;1000;0.372627
+Cuadratic Probing;UserID;1000;0.348339
+Double Hashing;UserID;1000;0.250234
+STL;UserID;1000;2.70591
+Hashing Abierto;UserID;5000;0.921205
+Linear Probing;UserID;5000;1.59615
+Cuadratic Probing;UserID;5000;1.59
+Double Hashing;UserID;5000;1.44549
+STL;UserID;5000;12.5901
+Hashing Abierto;UserID;10000;1.76735
+Linear Probing;UserID;10000;3.36313
+Cuadratic Probing;UserID;10000;3.2819
+Double Hashing;UserID;10000;3.26752
+STL;UserID;10000;26.0081
+Hashing Abierto;UserID;15000;2.64126
+Linear Probing;UserID;15000;5.47285
+Cuadratic Probing;UserID;15000;5.48985
+Double Hashing;UserID;15000;5.65026
+STL;UserID;15000;39.8419
+Hashing Abierto;UserID;20000;3.48077
+Linear Probing;UserID;20000;8.60066
+Cuadratic Probing;UserID;20000;8.30897
+Double Hashing;UserID;20000;8.59249
+STL;UserID;20000;50.3646
+Hashing Abierto;UserID;21070;3.77371
+Linear Probing;UserID;21070;9.50809
+Cuadratic Probing;UserID;21070;9.5993
+Double Hashing;UserID;21070;9.46907
+STL;UserID;21070;52.2024
+Hashing Abierto;Username;1000;0.385717
+Linear Probing;Username;1000;0.491257
+Cuadratic Probing;Username;1000;0.490979
+Double Hashing;Username;1000;0.534573
+STL;Username;1000;2.65931
+Hashing Abierto;Username;5000;1.53782
+Linear Probing;Username;5000;2.48538
+Cuadratic Probing;Username;5000;2.46128
+Double Hashing;Username;5000;2.84598
+STL;Username;5000;14.1066
+Hashing Abierto;Username;10000;3.0761
+Linear Probing;Username;10000;5.09085
+Cuadratic Probing;Username;10000;5.18511
+Double Hashing;Username;10000;6.21824
+STL;Username;10000;28.2998
+Hashing Abierto;Username;15000;4.67427
+Linear Probing;Username;15000;7.91474
+Cuadratic Probing;Username;15000;7.91722
+Double Hashing;Username;15000;9.62767
+STL;Username;15000;42.1759
+Hashing Abierto;Username;20000;6.5933
+Linear Probing;Username;20000;12.5843
+Cuadratic Probing;Username;20000;12.2334
+Double Hashing;Username;20000;14.1133
+STL;Username;20000;56.2205
+Hashing Abierto;Username;21070;6.63851
+Linear Probing;Username;21070;13.652
+Cuadratic Probing;Username;21070;13.5419
+Double Hashing;Username;21070;15.8683
+STL;Username;21070;58.0479
+Hashing Abierto;UserID;1000;0.195376
+Linear Probing;UserID;1000;0.288671
+Cuadratic Probing;UserID;1000;0.271043
+Double Hashing;UserID;1000;0.247768
+STL;UserID;1000;2.48217
+Hashing Abierto;UserID;5000;0.88499
+Linear Probing;UserID;5000;1.61879
+Cuadratic Probing;UserID;5000;1.58583
+Double Hashing;UserID;5000;1.45841
+STL;UserID;5000;12.3681
+Hashing Abierto;UserID;10000;1.75961
+Linear Probing;UserID;10000;3.32198
+Cuadratic Probing;UserID;10000;3.39268
+Double Hashing;UserID;10000;3.4572
+STL;UserID;10000;25.7563
+Hashing Abierto;UserID;15000;2.66699
+Linear Probing;UserID;15000;5.31753
+Cuadratic Probing;UserID;15000;5.29443
+Double Hashing;UserID;15000;5.37003
+STL;UserID;15000;38.7228
+Hashing Abierto;UserID;20000;3.57336
+Linear Probing;UserID;20000;8.44604
+Cuadratic Probing;UserID;20000;8.34097
+Double Hashing;UserID;20000;8.34771
+STL;UserID;20000;50.1386
+Hashing Abierto;UserID;21070;3.79522
+Linear Probing;UserID;21070;9.43076
+Cuadratic Probing;UserID;21070;9.33695
+Double Hashing;UserID;21070;9.16058
+STL;UserID;21070;54.5714
+Hashing Abierto;Username;1000;0.333065
+Linear Probing;Username;1000;0.480245
+Cuadratic Probing;Username;1000;0.453553
+Double Hashing;Username;1000;0.533528
+STL;Username;1000;2.70265
+Hashing Abierto;Username;5000;1.62419
+Linear Probing;Username;5000;2.48036
+Cuadratic Probing;Username;5000;2.46975
+Double Hashing;Username;5000;2.9481
+STL;Username;5000;14.0368
+Hashing Abierto;Username;10000;3.12248
+Linear Probing;Username;10000;5.1528
+Cuadratic Probing;Username;10000;5.17632
+Double Hashing;Username;10000;6.31725
+STL;Username;10000;28.771
+Hashing Abierto;Username;15000;4.64646
+Linear Probing;Username;15000;8.06288
+Cuadratic Probing;Username;15000;8.2038
+Double Hashing;Username;15000;9.84171
+STL;Username;15000;41.9971
+Hashing Abierto;Username;20000;6.31253
+Linear Probing;Username;20000;12.2929
+Cuadratic Probing;Username;20000;12.3615
+Double Hashing;Username;20000;14.5798
+STL;Username;20000;56.4085
+Hashing Abierto;Username;21070;6.67104
+Linear Probing;Username;21070;13.9955
+Cuadratic Probing;Username;21070;13.8546
+Double Hashing;Username;21070;16.1934
+STL;Username;21070;58.92
+Hashing Abierto;UserID;1000;0.1944
+Linear Probing;UserID;1000;0.296234
+Cuadratic Probing;UserID;1000;0.26438
+Double Hashing;UserID;1000;0.248782
+STL;UserID;1000;2.52422
+Hashing Abierto;UserID;5000;0.878616
+Linear Probing;UserID;5000;1.62534
+Cuadratic Probing;UserID;5000;1.51157
+Double Hashing;UserID;5000;1.44477
+STL;UserID;5000;12.6456
+Hashing Abierto;UserID;10000;1.70116
+Linear Probing;UserID;10000;3.35028
+Cuadratic Probing;UserID;10000;3.35068
+Double Hashing;UserID;10000;3.40793
+STL;UserID;10000;25.6868
+Hashing Abierto;UserID;15000;2.63531
+Linear Probing;UserID;15000;5.65877
+Cuadratic Probing;UserID;15000;5.71338
+Double Hashing;UserID;15000;5.64321
+STL;UserID;15000;38.7348
+Hashing Abierto;UserID;20000;3.59637
+Linear Probing;UserID;20000;8.45649
+Cuadratic Probing;UserID;20000;8.37288
+Double Hashing;UserID;20000;8.42804
+STL;UserID;20000;49.5456
+Hashing Abierto;UserID;21070;3.75737
+Linear Probing;UserID;21070;9.41256
+Cuadratic Probing;UserID;21070;9.23482
+Double Hashing;UserID;21070;9.12262
+STL;UserID;21070;52.4029
+Hashing Abierto;Username;1000;0.329293
+Linear Probing;Username;1000;0.534139
+Cuadratic Probing;Username;1000;0.436525
+Double Hashing;Username;1000;0.514843
+STL;Username;1000;2.64341
+Hashing Abierto;Username;5000;1.53026
+Linear Probing;Username;5000;2.52355
+Cuadratic Probing;Username;5000;2.43288
+Double Hashing;Username;5000;2.86025
+STL;Username;5000;13.9859
+Hashing Abierto;Username;10000;3.13336
+Linear Probing;Username;10000;5.14926
+Cuadratic Probing;Username;10000;5.11183
+Double Hashing;Username;10000;6.0946
+STL;Username;10000;27.9474
+Hashing Abierto;Username;15000;4.64487
+Linear Probing;Username;15000;8.10469
+Cuadratic Probing;Username;15000;7.96754
+Double Hashing;Username;15000;9.6444
+STL;Username;15000;42.1984
+Hashing Abierto;Username;20000;6.26037
+Linear Probing;Username;20000;12.0084
+Cuadratic Probing;Username;20000;12.1799
+Double Hashing;Username;20000;14.2426
+STL;Username;20000;55.5853
+Hashing Abierto;Username;21070;7.36263
+Linear Probing;Username;21070;13.8505
+Cuadratic Probing;Username;21070;13.5393
+Double Hashing;Username;21070;15.8216
+STL;Username;21070;64.1226
+Hashing Abierto;UserID;1000;0.198392
+Linear Probing;UserID;1000;0.296804
+Cuadratic Probing;UserID;1000;0.307885
+Double Hashing;UserID;1000;0.248407
+STL;UserID;1000;2.44219
+Hashing Abierto;UserID;5000;0.887759
+Linear Probing;UserID;5000;1.63855
+Cuadratic Probing;UserID;5000;1.51441
+Double Hashing;UserID;5000;1.40876
+STL;UserID;5000;12.5858
+Hashing Abierto;UserID;10000;1.71331
+Linear Probing;UserID;10000;3.40548
+Cuadratic Probing;UserID;10000;3.60386
+Double Hashing;UserID;10000;3.46944
+STL;UserID;10000;25.9919
+Hashing Abierto;UserID;15000;2.61723
+Linear Probing;UserID;15000;5.37186
+Cuadratic Probing;UserID;15000;5.34409
+Double Hashing;UserID;15000;5.44968
+STL;UserID;15000;38.7239
+Hashing Abierto;UserID;20000;3.50111
+Linear Probing;UserID;20000;8.23906
+Cuadratic Probing;UserID;20000;8.22204
+Double Hashing;UserID;20000;8.10255
+STL;UserID;20000;50.1821
+Hashing Abierto;UserID;21070;3.72488
+Linear Probing;UserID;21070;9.41102
+Cuadratic Probing;UserID;21070;9.24996
+Double Hashing;UserID;21070;9.05174
+STL;UserID;21070;52.2439
+Hashing Abierto;Username;1000;0.403344
+Linear Probing;Username;1000;0.489609
+Cuadratic Probing;Username;1000;0.442116
+Double Hashing;Username;1000;0.520662
+STL;Username;1000;2.67336
+Hashing Abierto;Username;5000;1.55857
+Linear Probing;Username;5000;2.50365
+Cuadratic Probing;Username;5000;2.38727
+Double Hashing;Username;5000;2.84941
+STL;Username;5000;13.8231
+Hashing Abierto;Username;10000;3.22172
+Linear Probing;Username;10000;5.18901
+Cuadratic Probing;Username;10000;5.18258
+Double Hashing;Username;10000;6.41336
+STL;Username;10000;29.2168
+Hashing Abierto;Username;15000;4.68455
+Linear Probing;Username;15000;8.07925
+Cuadratic Probing;Username;15000;8.07492
+Double Hashing;Username;15000;9.72458
+STL;Username;15000;41.37
+Hashing Abierto;Username;20000;6.50418
+Linear Probing;Username;20000;12.2921
+Cuadratic Probing;Username;20000;12.2738
+Double Hashing;Username;20000;14.5179
+STL;Username;20000;55.8252
+Hashing Abierto;Username;21070;6.70312
+Linear Probing;Username;21070;13.7824
+Cuadratic Probing;Username;21070;13.8033
+Double Hashing;Username;21070;16.1495
+STL;Username;21070;59.5365
+Hashing Abierto;UserID;1000;0.198494
+Linear Probing;UserID;1000;0.297786
+Cuadratic Probing;UserID;1000;0.274834
+Double Hashing;UserID;1000;0.252807
+STL;UserID;1000;2.47777
+Hashing Abierto;UserID;5000;0.876118
+Linear Probing;UserID;5000;1.72383
+Cuadratic Probing;UserID;5000;1.61855
+Double Hashing;UserID;5000;1.56134
+STL;UserID;5000;12.8216
+Hashing Abierto;UserID;10000;1.73988
+Linear Probing;UserID;10000;3.434
+Cuadratic Probing;UserID;10000;3.42427
+Double Hashing;UserID;10000;3.43936
+STL;UserID;10000;25.911
+Hashing Abierto;UserID;15000;2.58473
+Linear Probing;UserID;15000;5.38056
+Cuadratic Probing;UserID;15000;5.37186
+Double Hashing;UserID;15000;5.40496
+STL;UserID;15000;38.0787
+Hashing Abierto;UserID;20000;3.57431
+Linear Probing;UserID;20000;8.38985
+Cuadratic Probing;UserID;20000;8.32839
+Double Hashing;UserID;20000;8.44917
+STL;UserID;20000;51.1075
+Hashing Abierto;UserID;21070;3.78981
+Linear Probing;UserID;21070;9.73596
+Cuadratic Probing;UserID;21070;9.39486
+Double Hashing;UserID;21070;9.65842
+STL;UserID;21070;52.7033
+Hashing Abierto;Username;1000;0.337878
+Linear Probing;Username;1000;0.478307
+Cuadratic Probing;Username;1000;0.446694
+Double Hashing;Username;1000;0.532264
+STL;Username;1000;2.76131
+Hashing Abierto;Username;5000;1.6216
+Linear Probing;Username;5000;2.46102
+Cuadratic Probing;Username;5000;2.42231
+Double Hashing;Username;5000;2.91786
+STL;Username;5000;13.8652
+Hashing Abierto;Username;10000;3.0835
+Linear Probing;Username;10000;5.2667
+Cuadratic Probing;Username;10000;5.14466
+Double Hashing;Username;10000;6.34248
+STL;Username;10000;28.5276
+Hashing Abierto;Username;15000;4.67712
+Linear Probing;Username;15000;7.91811
+Cuadratic Probing;Username;15000;7.98806
+Double Hashing;Username;15000;9.58375
+STL;Username;15000;41.676
+Hashing Abierto;Username;20000;6.33538
+Linear Probing;Username;20000;11.9494
+Cuadratic Probing;Username;20000;12.0347
+Double Hashing;Username;20000;14.3343
+STL;Username;20000;55.3022
+Hashing Abierto;Username;21070;6.61242
+Linear Probing;Username;21070;13.5865
+Cuadratic Probing;Username;21070;13.5694
+Double Hashing;Username;21070;15.9548
+STL;Username;21070;58.5937
+Hashing Abierto;UserID;1000;0.205457
+Linear Probing;UserID;1000;0.299398
+Cuadratic Probing;UserID;1000;0.425618
+Double Hashing;UserID;1000;0.306346
+STL;UserID;1000;2.80279
+Hashing Abierto;UserID;5000;1.00729
+Linear Probing;UserID;5000;1.5891
+Cuadratic Probing;UserID;5000;1.52443
+Double Hashing;UserID;5000;1.49826
+STL;UserID;5000;12.8503
+Hashing Abierto;UserID;10000;1.79463
+Linear Probing;UserID;10000;3.32939
+Cuadratic Probing;UserID;10000;3.41415
+Double Hashing;UserID;10000;3.42962
+STL;UserID;10000;25.793
+Hashing Abierto;UserID;15000;2.64636
+Linear Probing;UserID;15000;5.35692
+Cuadratic Probing;UserID;15000;5.2569
+Double Hashing;UserID;15000;5.40861
+STL;UserID;15000;38.0027
+Hashing Abierto;UserID;20000;3.53866
+Linear Probing;UserID;20000;8.36885
+Cuadratic Probing;UserID;20000;8.48171
+Double Hashing;UserID;20000;8.47721
+STL;UserID;20000;50.2611
+Hashing Abierto;UserID;21070;3.77507
+Linear Probing;UserID;21070;9.82316
+Cuadratic Probing;UserID;21070;9.4246
+Double Hashing;UserID;21070;9.44975
+STL;UserID;21070;53.3577
+Hashing Abierto;Username;1000;0.335379
+Linear Probing;Username;1000;0.477759
+Cuadratic Probing;Username;1000;0.428206
+Double Hashing;Username;1000;0.513554
+STL;Username;1000;2.63068
+Hashing Abierto;Username;5000;1.54191
+Linear Probing;Username;5000;2.51318
+Cuadratic Probing;Username;5000;2.37057
+Double Hashing;Username;5000;2.8713
+STL;Username;5000;13.7779
+Hashing Abierto;Username;10000;3.08037
+Linear Probing;Username;10000;5.15385
+Cuadratic Probing;Username;10000;5.09879
+Double Hashing;Username;10000;6.31929
+STL;Username;10000;28.3847
+Hashing Abierto;Username;15000;4.63779
+Linear Probing;Username;15000;8.15902
+Cuadratic Probing;Username;15000;8.12742
+Double Hashing;Username;15000;9.63921
+STL;Username;15000;41.8382
+Hashing Abierto;Username;20000;6.88112
+Linear Probing;Username;20000;12.2503
+Cuadratic Probing;Username;20000;12.2545
+Double Hashing;Username;20000;14.2199
+STL;Username;20000;55.5364
+Hashing Abierto;Username;21070;6.72014
+Linear Probing;Username;21070;13.9678
+Cuadratic Probing;Username;21070;13.7692
+Double Hashing;Username;21070;16.1024
+STL;Username;21070;59.1481
+Hashing Abierto;UserID;1000;0.19689
+Linear Probing;UserID;1000;0.295893
+Cuadratic Probing;UserID;1000;0.269991
+Double Hashing;UserID;1000;0.248289
+STL;UserID;1000;2.45794
+Hashing Abierto;UserID;5000;0.86303
+Linear Probing;UserID;5000;1.63296
+Cuadratic Probing;UserID;5000;1.49674
+Double Hashing;UserID;5000;1.43249
+STL;UserID;5000;12.6988
+Hashing Abierto;UserID;10000;1.69974
+Linear Probing;UserID;10000;3.35754
+Cuadratic Probing;UserID;10000;3.52146
+Double Hashing;UserID;10000;3.54046
+STL;UserID;10000;25.6905
+Hashing Abierto;UserID;15000;2.57974
+Linear Probing;UserID;15000;5.19071
+Cuadratic Probing;UserID;15000;5.17282
+Double Hashing;UserID;15000;5.29147
+STL;UserID;15000;37.9917
+Hashing Abierto;UserID;20000;3.57388
+Linear Probing;UserID;20000;8.55873
+Cuadratic Probing;UserID;20000;8.32322
+Double Hashing;UserID;20000;8.36191
+STL;UserID;20000;52.6457
+Hashing Abierto;UserID;21070;3.78361
+Linear Probing;UserID;21070;9.48108
+Cuadratic Probing;UserID;21070;9.20424
+Double Hashing;UserID;21070;9.1725
+STL;UserID;21070;53.5872
+Hashing Abierto;Username;1000;0.338394
+Linear Probing;Username;1000;0.485356
+Cuadratic Probing;Username;1000;0.491961
+Double Hashing;Username;1000;0.527686
+STL;Username;1000;2.62104
+Hashing Abierto;Username;5000;1.57512
+Linear Probing;Username;5000;2.44682
+Cuadratic Probing;Username;5000;2.35286
+Double Hashing;Username;5000;2.90087
+STL;Username;5000;13.9322
+Hashing Abierto;Username;10000;3.16427
+Linear Probing;Username;10000;5.20038
+Cuadratic Probing;Username;10000;5.27711
+Double Hashing;Username;10000;6.31285
+STL;Username;10000;28.3403
+Hashing Abierto;Username;15000;4.75794
+Linear Probing;Username;15000;8.22613
+Cuadratic Probing;Username;15000;8.28614
+Double Hashing;Username;15000;10.0735
+STL;Username;15000;42.1418
+Hashing Abierto;Username;20000;6.33938
+Linear Probing;Username;20000;11.998
+Cuadratic Probing;Username;20000;12.0475
+Double Hashing;Username;20000;14.8337
+STL;Username;20000;54.7215
+Hashing Abierto;Username;21070;6.73771
+Linear Probing;Username;21070;13.7997
+Cuadratic Probing;Username;21070;13.7819
+Double Hashing;Username;21070;16.1633
+STL;Username;21070;58.2395
+Hashing Abierto;UserID;1000;0.212395
+Linear Probing;UserID;1000;0.351511
+Cuadratic Probing;UserID;1000;0.412677
+Double Hashing;UserID;1000;0.311002
+STL;UserID;1000;2.52023
+Hashing Abierto;UserID;5000;0.925291
+Linear Probing;UserID;5000;1.53939
+Cuadratic Probing;UserID;5000;1.55307
+Double Hashing;UserID;5000;1.46602
+STL;UserID;5000;12.7035
+Hashing Abierto;UserID;10000;1.7626
+Linear Probing;UserID;10000;3.31476
+Cuadratic Probing;UserID;10000;3.2718
+Double Hashing;UserID;10000;3.43758
+STL;UserID;10000;25.8037
+Hashing Abierto;UserID;15000;2.65578
+Linear Probing;UserID;15000;6.22982
+Cuadratic Probing;UserID;15000;5.5076
+Double Hashing;UserID;15000;5.69738
+STL;UserID;15000;37.9119
+Hashing Abierto;UserID;20000;3.57771
+Linear Probing;UserID;20000;8.31183
+Cuadratic Probing;UserID;20000;8.10489
+Double Hashing;UserID;20000;8.11175
+STL;UserID;20000;50.7642
+Hashing Abierto;UserID;21070;3.69015
+Linear Probing;UserID;21070;9.54679
+Cuadratic Probing;UserID;21070;9.40697
+Double Hashing;UserID;21070;9.40793
+STL;UserID;21070;52.1165
+Hashing Abierto;Username;1000;0.325171
+Linear Probing;Username;1000;0.472164
+Cuadratic Probing;Username;1000;0.436596
+Double Hashing;Username;1000;0.520689
+STL;Username;1000;2.66708
+Hashing Abierto;Username;5000;1.60199
+Linear Probing;Username;5000;2.45068
+Cuadratic Probing;Username;5000;2.41545
+Double Hashing;Username;5000;2.85361
+STL;Username;5000;13.816
+Hashing Abierto;Username;10000;3.00935
+Linear Probing;Username;10000;5.14496
+Cuadratic Probing;Username;10000;4.97716
+Double Hashing;Username;10000;6.18571
+STL;Username;10000;28.4711
+Hashing Abierto;Username;15000;4.67669
+Linear Probing;Username;15000;8.09117
+Cuadratic Probing;Username;15000;8.37383
+Double Hashing;Username;15000;9.84231
+STL;Username;15000;41.8842
+Hashing Abierto;Username;20000;6.48848
+Linear Probing;Username;20000;12.346
+Cuadratic Probing;Username;20000;12.3312
+Double Hashing;Username;20000;14.4066
+STL;Username;20000;55.0931
+Hashing Abierto;Username;21070;6.97143
+Linear Probing;Username;21070;13.8354
+Cuadratic Probing;Username;21070;13.7275
+Double Hashing;Username;21070;15.8283
+STL;Username;21070;59.1173
+Hashing Abierto;UserID;1000;0.201933
+Linear Probing;UserID;1000;0.301188
+Cuadratic Probing;UserID;1000;0.275362
+Double Hashing;UserID;1000;0.28813
+STL;UserID;1000;2.48327
+Hashing Abierto;UserID;5000;0.965845
+Linear Probing;UserID;5000;1.58052
+Cuadratic Probing;UserID;5000;1.51535
+Double Hashing;UserID;5000;1.52297
+STL;UserID;5000;12.8593
+Hashing Abierto;UserID;10000;1.78693
+Linear Probing;UserID;10000;3.30696
+Cuadratic Probing;UserID;10000;3.34681
+Double Hashing;UserID;10000;3.38484
+STL;UserID;10000;25.9211
+Hashing Abierto;UserID;15000;2.65133
+Linear Probing;UserID;15000;5.32583
+Cuadratic Probing;UserID;15000;5.41228
+Double Hashing;UserID;15000;5.55126
+STL;UserID;15000;37.8183
+Hashing Abierto;UserID;20000;3.52615
+Linear Probing;UserID;20000;8.22343
+Cuadratic Probing;UserID;20000;8.10385
+Double Hashing;UserID;20000;8.07876
+STL;UserID;20000;50.1071
+Hashing Abierto;UserID;21070;3.81548
+Linear Probing;UserID;21070;9.6622
+Cuadratic Probing;UserID;21070;9.36229
+Double Hashing;UserID;21070;9.34443
+STL;UserID;21070;54.196
+Hashing Abierto;Username;1000;0.33343
+Linear Probing;Username;1000;0.45792
+Cuadratic Probing;Username;1000;0.428384
+Double Hashing;Username;1000;0.556141
+STL;Username;1000;2.72298
+Hashing Abierto;Username;5000;1.56879
+Linear Probing;Username;5000;2.50489
+Cuadratic Probing;Username;5000;2.36292
+Double Hashing;Username;5000;2.84102
+STL;Username;5000;13.9545
+Hashing Abierto;Username;10000;3.08439
+Linear Probing;Username;10000;5.16959
+Cuadratic Probing;Username;10000;4.95946
+Double Hashing;Username;10000;6.30095
+STL;Username;10000;30.0123
+Hashing Abierto;Username;15000;4.7521
+Linear Probing;Username;15000;8.14407
+Cuadratic Probing;Username;15000;8.30725
+Double Hashing;Username;15000;9.99706
+STL;Username;15000;42.0371
+Hashing Abierto;Username;20000;6.46286
+Linear Probing;Username;20000;12.208
+Cuadratic Probing;Username;20000;12.2206
+Double Hashing;Username;20000;14.3948
+STL;Username;20000;55.7908
+Hashing Abierto;Username;21070;6.69686
+Linear Probing;Username;21070;13.8698
+Cuadratic Probing;Username;21070;13.8118
+Double Hashing;Username;21070;16.1919
+STL;Username;21070;58.6694
+Hashing Abierto;UserID;1000;0.193722
+Linear Probing;UserID;1000;0.292282
+Cuadratic Probing;UserID;1000;0.266129
+Double Hashing;UserID;1000;0.28759
+STL;UserID;1000;2.48608
+Hashing Abierto;UserID;5000;0.963592
+Linear Probing;UserID;5000;1.61743
+Cuadratic Probing;UserID;5000;1.51946
+Double Hashing;UserID;5000;1.48578
+STL;UserID;5000;13.4762
+Hashing Abierto;UserID;10000;1.76475
+Linear Probing;UserID;10000;3.28684
+Cuadratic Probing;UserID;10000;3.33209
+Double Hashing;UserID;10000;3.29948
+STL;UserID;10000;25.5444
+Hashing Abierto;UserID;15000;2.6591
+Linear Probing;UserID;15000;5.57788
+Cuadratic Probing;UserID;15000;5.45996
+Double Hashing;UserID;15000;5.38416
+STL;UserID;15000;37.9708
+Hashing Abierto;UserID;20000;3.62548
+Linear Probing;UserID;20000;8.387
+Cuadratic Probing;UserID;20000;8.37904
+Double Hashing;UserID;20000;8.38326
+STL;UserID;20000;52.6021
+Hashing Abierto;UserID;21070;3.7811
+Linear Probing;UserID;21070;9.72419
+Cuadratic Probing;UserID;21070;9.44859
+Double Hashing;UserID;21070;9.32067
+STL;UserID;21070;52.7966
+Hashing Abierto;Username;1000;0.332658
+Linear Probing;Username;1000;0.474075
+Cuadratic Probing;Username;1000;0.502652
+Double Hashing;Username;1000;0.516287
+STL;Username;1000;2.71325
+Hashing Abierto;Username;5000;1.64328
+Linear Probing;Username;5000;2.41179
+Cuadratic Probing;Username;5000;2.44115
+Double Hashing;Username;5000;2.85917
+STL;Username;5000;13.6583
+Hashing Abierto;Username;10000;3.02386
+Linear Probing;Username;10000;5.09939
+Cuadratic Probing;Username;10000;4.97379
+Double Hashing;Username;10000;6.16019
+STL;Username;10000;27.7081
+Hashing Abierto;Username;15000;4.75343
+Linear Probing;Username;15000;8.07344
+Cuadratic Probing;Username;15000;8.13883
+Double Hashing;Username;15000;9.86133
+STL;Username;15000;41.8863
+Hashing Abierto;Username;20000;6.3778
+Linear Probing;Username;20000;12.2916
+Cuadratic Probing;Username;20000;12.0639
+Double Hashing;Username;20000;14.3506
+STL;Username;20000;56.3727
+Hashing Abierto;Username;21070;6.61209
+Linear Probing;Username;21070;13.5622
+Cuadratic Probing;Username;21070;13.5887
+Double Hashing;Username;21070;15.7672
+STL;Username;21070;58.3287
+Hashing Abierto;UserID;1000;0.202533
+Linear Probing;UserID;1000;0.320034
+Cuadratic Probing;UserID;1000;0.268163
+Double Hashing;UserID;1000;0.24732
+STL;UserID;1000;2.42665
+Hashing Abierto;UserID;5000;0.876854
+Linear Probing;UserID;5000;1.61529
+Cuadratic Probing;UserID;5000;1.50053
+Double Hashing;UserID;5000;1.41929
+STL;UserID;5000;12.7469
+Hashing Abierto;UserID;10000;1.71324
+Linear Probing;UserID;10000;3.36575
+Cuadratic Probing;UserID;10000;3.3279
+Double Hashing;UserID;10000;3.39008
+STL;UserID;10000;25.6339
+Hashing Abierto;UserID;15000;2.6282
+Linear Probing;UserID;15000;5.25711
+Cuadratic Probing;UserID;15000;5.26973
+Double Hashing;UserID;15000;5.28246
+STL;UserID;15000;37.7784
+Hashing Abierto;UserID;20000;3.68089
+Linear Probing;UserID;20000;8.47738
+Cuadratic Probing;UserID;20000;8.26033
+Double Hashing;UserID;20000;8.19851
+STL;UserID;20000;49.6068
+Hashing Abierto;UserID;21070;3.80449
+Linear Probing;UserID;21070;9.48093
+Cuadratic Probing;UserID;21070;9.22205
+Double Hashing;UserID;21070;9.05609
+STL;UserID;21070;52.357
+Hashing Abierto;Username;1000;0.331365
+Linear Probing;Username;1000;0.478939
+Cuadratic Probing;Username;1000;0.439266
+Double Hashing;Username;1000;0.519644
+STL;Username;1000;2.66318
+Hashing Abierto;Username;5000;1.64688
+Linear Probing;Username;5000;2.36698
+Cuadratic Probing;Username;5000;2.39541
+Double Hashing;Username;5000;2.86246
+STL;Username;5000;13.7621
+Hashing Abierto;Username;10000;3.08775
+Linear Probing;Username;10000;5.09901
+Cuadratic Probing;Username;10000;5.10234
+Double Hashing;Username;10000;6.21194
+STL;Username;10000;28.2033
+Hashing Abierto;Username;15000;4.68213
+Linear Probing;Username;15000;8.05502
+Cuadratic Probing;Username;15000;7.96508
+Double Hashing;Username;15000;9.61673
+STL;Username;15000;41.8206
+Hashing Abierto;Username;20000;6.48407
+Linear Probing;Username;20000;12.5743
+Cuadratic Probing;Username;20000;12.1699
+Double Hashing;Username;20000;14.2373
+STL;Username;20000;56.3746
+Hashing Abierto;Username;21070;6.59546
+Linear Probing;Username;21070;13.8625
+Cuadratic Probing;Username;21070;13.6059
+Double Hashing;Username;21070;15.9426
+STL;Username;21070;59.6859
+Hashing Abierto;UserID;1000;0.194616
+Linear Probing;UserID;1000;0.296143
+Cuadratic Probing;UserID;1000;0.269181
+Double Hashing;UserID;1000;0.250532
+STL;UserID;1000;2.48982
+Hashing Abierto;UserID;5000;0.877255
+Linear Probing;UserID;5000;1.64243
+Cuadratic Probing;UserID;5000;1.49113
+Double Hashing;UserID;5000;1.48919
+STL;UserID;5000;12.9153
+Hashing Abierto;UserID;10000;1.75853
+Linear Probing;UserID;10000;3.27749
+Cuadratic Probing;UserID;10000;3.34202
+Double Hashing;UserID;10000;3.4056
+STL;UserID;10000;26.0127
+Hashing Abierto;UserID;15000;2.63343
+Linear Probing;UserID;15000;5.2557
+Cuadratic Probing;UserID;15000;5.47079
+Double Hashing;UserID;15000;5.50344
+STL;UserID;15000;38.6277
+Hashing Abierto;UserID;20000;3.58961
+Linear Probing;UserID;20000;8.31598
+Cuadratic Probing;UserID;20000;8.28081
+Double Hashing;UserID;20000;8.49739
+STL;UserID;20000;51.0105
+Hashing Abierto;UserID;21070;3.75347
+Linear Probing;UserID;21070;9.43342
+Cuadratic Probing;UserID;21070;9.25243
+Double Hashing;UserID;21070;9.08719
+STL;UserID;21070;55.1048
+Hashing Abierto;Username;1000;0.330571
+Linear Probing;Username;1000;0.47332
+Cuadratic Probing;Username;1000;0.43906
+Double Hashing;Username;1000;0.515623
+STL;Username;1000;2.64472
+Hashing Abierto;Username;5000;1.59245
+Linear Probing;Username;5000;2.34569
+Cuadratic Probing;Username;5000;2.38389
+Double Hashing;Username;5000;2.8403
+STL;Username;5000;13.7105
+Hashing Abierto;Username;10000;3.1328
+Linear Probing;Username;10000;5.03681
+Cuadratic Probing;Username;10000;5.05311
+Double Hashing;Username;10000;6.24238
+STL;Username;10000;28.8013
+Hashing Abierto;Username;15000;4.7748
+Linear Probing;Username;15000;8.19356
+Cuadratic Probing;Username;15000;8.24967
+Double Hashing;Username;15000;9.99332
+STL;Username;15000;42.0312
+Hashing Abierto;Username;20000;6.41443
+Linear Probing;Username;20000;12.1656
+Cuadratic Probing;Username;20000;12.3562
+Double Hashing;Username;20000;14.5731
+STL;Username;20000;55.4475
+Hashing Abierto;Username;21070;6.78049
+Linear Probing;Username;21070;13.7477
+Cuadratic Probing;Username;21070;13.7333
+Double Hashing;Username;21070;16.104
+STL;Username;21070;58.3781

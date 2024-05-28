@@ -9,7 +9,7 @@ bool Pair<T>::operator==(Pair<T> pair) {
     return cond1 && cond2;
 }
 
-Open_UserIDMap::Open_UserIDMap() {
+Chaining_UserIDMap::Chaining_UserIDMap() {
     table = new Node<long long> * [HASHTABLE_SIZE];
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         table[i] = nullptr;
@@ -17,7 +17,7 @@ Open_UserIDMap::Open_UserIDMap() {
     _size = 0;
 }
 
-Open_UserIDMap::~Open_UserIDMap() {
+Chaining_UserIDMap::~Chaining_UserIDMap() {
     /* For each cell */
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         /* Delete every node */
@@ -33,7 +33,7 @@ Open_UserIDMap::~Open_UserIDMap() {
     delete[] table;
 }
 
-User Open_UserIDMap::get(long long key) {
+User Chaining_UserIDMap::get(long long key) {
     auto idx = hashUserID(key);
 
     Node<long long> * ptr = table[idx]; /* Head */
@@ -52,7 +52,7 @@ User Open_UserIDMap::get(long long key) {
     return NULL_USER;
 }
 
-User Open_UserIDMap::put(long long key, User value) {
+User Chaining_UserIDMap::put(long long key, User value) {
     auto idx = hashUserID(key);
 
     Node<long long> * ptr = table[idx]; /* Head */
@@ -82,9 +82,9 @@ User Open_UserIDMap::put(long long key, User value) {
     }
 }
 
-int Open_UserIDMap::size() {return _size;}
+int Chaining_UserIDMap::size() {return _size;}
 
-bool Open_UserIDMap::isEmpty() {return (_size == 0);}
+bool Chaining_UserIDMap::isEmpty() {return (_size == 0);}
 
 Linear_UserIDMap::Linear_UserIDMap(){
     table = new Pair<long long>[HASHTABLE_SIZE];
@@ -261,7 +261,7 @@ int Double_UserIDMap::size() {return _size;}
 
 bool Double_UserIDMap::isEmpty() {return (_size == 0);}
 
-Open_UsernameMap::Open_UsernameMap() {
+Chaining_UsernameMap::Chaining_UsernameMap() {
     table = new Node<std::string> * [HASHTABLE_SIZE];
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         table[i] = nullptr;
@@ -269,7 +269,7 @@ Open_UsernameMap::Open_UsernameMap() {
     _size = 0;
 }
 
-Open_UsernameMap::~Open_UsernameMap() {
+Chaining_UsernameMap::~Chaining_UsernameMap() {
     /* For each cell */
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         /* Delete every node */
@@ -285,7 +285,7 @@ Open_UsernameMap::~Open_UsernameMap() {
     delete[] table;
 }
 
-User Open_UsernameMap::get(std::string key) {
+User Chaining_UsernameMap::get(std::string key) {
     auto idx = hashUsername(key);
 
     Node<std::string> * ptr = table[idx]; /* Head */
@@ -304,7 +304,7 @@ User Open_UsernameMap::get(std::string key) {
     return NULL_USER;
 }
 
-User Open_UsernameMap::put(std::string key, User value) {
+User Chaining_UsernameMap::put(std::string key, User value) {
     auto idx = hashUsername(key);
 
     Node<std::string> * ptr = table[idx]; /* Head */
@@ -334,9 +334,9 @@ User Open_UsernameMap::put(std::string key, User value) {
     }
 }
 
-int Open_UsernameMap::size() {return _size;}
+int Chaining_UsernameMap::size() {return _size;}
 
-bool Open_UsernameMap::isEmpty() {return (_size == 0);}
+bool Chaining_UsernameMap::isEmpty() {return (_size == 0);}
 
 Linear_UsernameMap::Linear_UsernameMap(){
     table = new Pair<std::string>[HASHTABLE_SIZE];

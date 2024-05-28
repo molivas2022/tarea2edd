@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     User* users = readEntries(n);
     // long long* ids = readUserIDs(n); No es usado en el resto del programa
     
-    Open_UserIDMap dict1{};
+    Chaining_UserIDMap dict1{};
     Linear_UserIDMap dict2{};
     Cuadratic_UserIDMap dict3{};
     Double_UserIDMap dict4{};

@@ -8,9 +8,10 @@
 #include "map.h"
 
 /* Fuente: Modificación del código encontrado en: https://stackoverflow.com/a/22883968 */
-Random::Random(User * users) {
+Random::Random(User * users, int n) {
     std::random_device rd;
     mt = new std::mt19937_64(rd());
+    this-> n = n;
 
     this->users = users;
 }
@@ -38,7 +39,7 @@ std::string Random::generateString() {
 
 long long * Random::generateIDSample(int sampleSize) {
     long long * llongs = new long long[sampleSize];
-    distr<int> d(0, ENTRIES_SIZE-1);
+    distr<int> d(0, n-1);
 
     for (int i = 0; i < sampleSize; i++) {
         llongs[i] = users[d(*mt)].userID;
@@ -48,7 +49,7 @@ long long * Random::generateIDSample(int sampleSize) {
 
 std::string * Random::generateUsernameSample(int sampleSize) {
     std::string * strings = new std::string[sampleSize];
-    distr<int> d(0, ENTRIES_SIZE-1);
+    distr<int> d(0, n-1);
 
     for (int i = 0; i < sampleSize; i++) {
         strings[i] = users[d(*mt)].username;
@@ -63,10 +64,27 @@ long long * Random::generateFalseIDSample(int sampleSize) {
         long long candidate;
         while (true) {
             candidate = generateLongLong();
-            for (int i = 0; i < ENTRIES_SIZE; i++) {
+            for (int i = 0; i < n; i++) {
                 if (candidate == users[i].userID) {
                     continue;
                 }
+            }
+            break;
+        }
+        llongs[i] = candidate;
+    }
+    return llongs;
+}
+
+long long * Random::generateFalseIDSample_Fast(int sampleSize, UserIDMap& verifier) {
+    long long * llongs = new long long[sampleSize];
+
+    for (int i = 0; i < sampleSize; i++) {
+        long long candidate;
+        while (true) {
+            candidate = generateLongLong();
+            if (!(verifier.get(candidate) == NULL_USER)) {
+                continue;
             }
             break;
         }
@@ -82,10 +100,27 @@ std::string * Random::generateFalseUsernameSample(int sampleSize) {
         std::string candidate;
         while (true) {
             candidate = generateString();
-            for (int i = 0; i < ENTRIES_SIZE; i++) {
+            for (int i = 0; i < n; i++) {
                 if (candidate == users[i].username) {
                     continue;
                 }
+            }
+            break;
+        }
+        strings[i] = candidate;
+    }
+    return strings;
+}
+
+std::string * Random::generateFalseUsernameSample_Fast(int sampleSize, UsernameMap& verifier) {
+    std::string * strings = new std::string[sampleSize];
+
+    for (int i = 0; i < sampleSize; i++) {
+        std::string candidate;
+        while (true) {
+            candidate = generateString();
+            if (!(verifier.get(candidate) == NULL_USER)) {
+                continue;
             }
             break;
         }

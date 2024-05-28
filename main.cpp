@@ -51,13 +51,13 @@ int main() {
     std::string * f_names = r.generateFalseUsernameSample(SAMPLE_SIZE);
     std::cout << c.lap() << " ms."<< std::endl;
 
-    Open_UserIDMap dict1{};
+    Chaining_UserIDMap dict1{};
     Linear_UserIDMap dict2{};
     Cuadratic_UserIDMap dict3{};
     Double_UserIDMap dict4{};
     STL_UserIDMap dict5{};
 
-    Open_UsernameMap dict6{};
+    Chaining_UsernameMap dict6{};
     Linear_UsernameMap dict7{};
     Cuadratic_UsernameMap dict8{};
     Double_UsernameMap dict9{};

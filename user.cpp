@@ -30,7 +30,7 @@ void printUser(User user) {
 
 
 User * readEntries(int n) {
-    /* Open the CSV file */
+    /* Chaining the CSV file */
     std::ifstream file{ENTRIES_PATH};
     if (!file.is_open()) {
         std::cerr << "Error opening the .csv file" << std::endl;

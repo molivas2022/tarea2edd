@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include <map>
+#include <unordered_map>
 #include "user.h"
 #include "hash.h"
 
@@ -44,12 +44,12 @@ class UsernameMap: public Map<std::string, User> {
 };
 
 /* ADT Implementation */
-class Open_UserIDMap: public UserIDMap {
+class Chaining_UserIDMap: public UserIDMap {
     Node<long long> ** table;
     int _size;
 public:
-    Open_UserIDMap();
-    ~Open_UserIDMap();
+    Chaining_UserIDMap();
+    ~Chaining_UserIDMap();
     User get(long long int) override;
     User put(long long int, User) override;
     int size() override;
@@ -96,12 +96,12 @@ public:
 };
 
 /* ADT Implementation */
-class Open_UsernameMap: public UsernameMap {
+class Chaining_UsernameMap: public UsernameMap {
     Node<std::string> ** table;
     int _size;
 public:
-    Open_UsernameMap();
-    ~Open_UsernameMap();
+    Chaining_UsernameMap();
+    ~Chaining_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;
@@ -149,7 +149,7 @@ public:
 
 /* ADT Implementation */
 class STL_UserIDMap: public UserIDMap {
-    std::map<long long, User> _map;
+    std::unordered_map<long long, User> _map;
     int _size = 0;
 public:
     User get(long long int) override;
@@ -160,7 +160,7 @@ public:
 
 /* ADT Implementation */
 class STL_UsernameMap: public UsernameMap {
-    std::map<std::string, User> _map;
+    std::unordered_map<std::string, User> _map;
     int _size = 0;
 public:
     User get(std::string) override;

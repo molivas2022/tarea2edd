@@ -7,9 +7,9 @@
 #include "test.h"
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
-void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, std::string testname) {
+void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
+    for (int i = 0; i < n; i++) {
         map.put(users[i].userID, users[i]);
     }
 
@@ -18,7 +18,7 @@ void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, std::st
     c.start();
 
     /* Ejecutamos las busquedas */
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < k; i++) {
         if (map.get(ids[i]) == NULL_USER) {
             exit(EXIT_FAILURE);
         }
@@ -28,13 +28,14 @@ void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, std::st
     double running_time = c.now();
 
     /* Imprimimos el resultado */
-    std::cout << testname << ";UserID;" << "Almacenados;" << running_time << std::endl;
+    float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
+    std::cout << testname << ";UserID;" << "Almacenados;" << load_factor << ";" << running_time << std::endl;
 }
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
-void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, int n, std::string testname) {
+void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
-    for (int i = 0; i < ENTRIES_SIZE; i++) {
+    for (int i = 0; i < n; i++) {
         map.put(users[i].userID, users[i]);
     }
 
@@ -43,7 +44,7 @@ void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, i
     c.start();
 
     /* Ejecutamos las busquedas */
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < k; i++) {
         if (!(map.get(falseids[i]) == NULL_USER)) {
             exit(EXIT_FAILURE);
         }
@@ -53,41 +54,43 @@ void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, i
     double running_time = c.now();
 
     /* Imprimimos el resultado */
-    std::cout << testname << ";UserID;" << "No almacenados;" << running_time << std::endl;
+    float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
+    std::cout << testname << ";UserID;" << "No almacenados;" << load_factor << ";" << running_time << std::endl;
 }
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 int main(int argc, char** argv) {
     /* Si no hay suficientes argumentos, terminamos la ejecución */
-    if(argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <cantidad de elementos>" << std::endl;
+    if(argc < 3) {
+        std::cerr << "Usage: " << argv[0] << " <cantidad de inserciones>" << " <cantidad de busquedas>" << std::endl;
         exit(1);
     }
-    int n = atoi(argv[1]); // Almacenará la cantidad de elementos
+    int n = atoi(argv[1]); /* Cantidad de inserciones */
+    int k = atoi(argv[2]); /* Cantidad de busquedas */
 
-    User* users = readEntries(ENTRIES_SIZE);
+    User* users = readEntries(n);
 
-    /* Generamos userids aleatorios */
-    Random r(users);
-    long long * ids = r.generateIDSample(n);
-    long long * fids = r.generateFalseIDSample(n);
+    /* Generamos userIDs aleatorios */
+    Random r(users, n);
+    long long * ids = r.generateIDSample(k);
+    long long * fids = r.generateFalseIDSample(k);
     
-    Open_UserIDMap dict1{};
-    Linear_UserIDMap dict2{};
-    Cuadratic_UserIDMap dict3{};
-    Double_UserIDMap dict4{};
-    STL_UserIDMap dict5{};
+    Chaining_UserIDMap dict6{};
+    Linear_UserIDMap dict7{};
+    Cuadratic_UserIDMap dict8{};
+    Double_UserIDMap dict9{};
+    STL_UserIDMap dict10{};
 
-    testUserIDMap(dict1, users, ids,  n, tests[0]);
-    negativeTestUserIDMap(dict1, users, fids, n, tests[0]);
-    testUserIDMap(dict2, users, ids, n, tests[1]);
-    negativeTestUserIDMap(dict2, users, fids, n, tests[1]);
-    testUserIDMap(dict3, users, ids, n, tests[2]);
-    negativeTestUserIDMap(dict3, users, fids, n, tests[2]);
-    testUserIDMap(dict4, users, ids, n, tests[3]);
-    negativeTestUserIDMap(dict4, users, fids, n, tests[3]);
-    testUserIDMap(dict5, users, ids, n, tests[4]);
-    negativeTestUserIDMap(dict5, users, fids, n, tests[4]);
+    testUserIDMap(dict6, users, ids, n, k, tests[0]);
+    negativeTestUserIDMap(dict6, users, fids, n, k, tests[0]);
+    testUserIDMap(dict7, users, ids, n, k, tests[1]);
+    negativeTestUserIDMap(dict7, users, fids, n, k, tests[1]);
+    testUserIDMap(dict8, users, ids, n, k, tests[2]);
+    negativeTestUserIDMap(dict8, users, fids, n, k, tests[2]);
+    testUserIDMap(dict9, users, ids, n, k, tests[3]);
+    negativeTestUserIDMap(dict9, users, fids, n, k, tests[3]);
+    testUserIDMap(dict10, users, ids, n, k, tests[4]);
+    negativeTestUserIDMap(dict10, users, fids, n, k, tests[4]);
 
     /* Liberamos memoria */
     delete[] users;

@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     User* users = readEntries(n);
     // std::string* names = readUsernames(n); No es usado en el resto del programa
     
-    Open_UsernameMap dict6{};
+    Chaining_UsernameMap dict6{};
     Linear_UsernameMap dict7{};
     Cuadratic_UsernameMap dict8{};
     Double_UsernameMap dict9{};

@@ -1,6 +1,8 @@
 #include <iostream>
+#include <unordered_map>
 #include <string>
 #include <chrono>
+#include <iomanip> 
 
 #include "user.h"
 #include "map.h"
@@ -29,8 +31,9 @@ void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, int k, 
 
     /* Imprimimos el resultado */
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
-    std::cout << testname << ";UserID;" << "Almacenados;" << load_factor << ";" << running_time << std::endl;
+    std::cout << testname << ";UserID;" << "Almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+void testUserIDMap(std::unordered_map<long long, User> map, User * users, long long * ids, int n, int k, std::string testname);
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, int n, int k, std::string testname) {
@@ -55,8 +58,9 @@ void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, i
 
     /* Imprimimos el resultado */
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
-    std::cout << testname << ";UserID;" << "No almacenados;" << load_factor << ";" << running_time << std::endl;
+    std::cout << testname << ";UserID;" << "No almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+void negativeTestUserIDMap(std::unordered_map<long long, User> map, User * users, long long * falseids, int n, int k, std::string testname);
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 int main(int argc, char** argv) {
@@ -77,9 +81,9 @@ int main(int argc, char** argv) {
     
     Chaining_UserIDMap dict6{};
     Linear_UserIDMap dict7{};
-    Cuadratic_UserIDMap dict8{};
+    Quadratic_UserIDMap dict8{};
     Double_UserIDMap dict9{};
-    STL_UserIDMap dict10{};
+    std::unordered_map<long long, User> dict10{};
 
     testUserIDMap(dict6, users, ids, n, k, tests[0]);
     negativeTestUserIDMap(dict6, users, fids, n, k, tests[0]);
@@ -98,4 +102,51 @@ int main(int argc, char** argv) {
     delete[] fids;
 
     return 0;
+}
+
+
+/* -- STL Map -- */
+void testUserIDMap(std::unordered_map<long long, User> map, User * users, long long * ids, int n, int k, std::string testname) {
+    /* Rellenamos los diccionarios */
+    for (int i = 0; i < n; i++) {
+        map.insert({users[i].userID, users[i]});
+    }
+
+    /* Iniciamos el cronometro */
+    Clock c;
+    c.start();
+
+    /* Ejecutamos las busquedas */
+    for (int i = 0; i < k; i++) {
+        map.find(ids[i]);
+    }
+
+    /* Calculamos el tiempo transcurrido */
+    double running_time = c.now();
+
+    /* Imprimimos el resultado */
+    float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
+    std::cout << testname << ";UserID;" << "Almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
+}
+void negativeTestUserIDMap(std::unordered_map<long long, User> map, User * users, long long * falseids, int n, int k, std::string testname) {
+    /* Rellenamos los diccionarios */
+    for (int i = 0; i < n; i++) {
+        map.insert({users[i].userID, users[i]});
+    }
+
+    /* Iniciamos el cronometro */
+    Clock c;
+    c.start();
+
+    /* Ejecutamos las busquedas */
+    for (int i = 0; i < k; i++) {
+        map.find(falseids[i]);
+    }
+
+    /* Calculamos el tiempo transcurrido */
+    double running_time = c.now();
+
+    /* Imprimimos el resultado */
+    float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
+    std::cout << testname << ";UserID;" << "No almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }

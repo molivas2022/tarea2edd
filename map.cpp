@@ -143,7 +143,7 @@ int Linear_UserIDMap::size(){return _size;}
 
 bool Linear_UserIDMap::isEmpty(){return (_size == 0);}
 
-Cuadratic_UserIDMap::Cuadratic_UserIDMap(){
+Quadratic_UserIDMap::Quadratic_UserIDMap(){
     table = new Pair<long long>[HASHTABLE_SIZE];
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         table[i] = NULL_PAIR_LLONG;
@@ -151,11 +151,11 @@ Cuadratic_UserIDMap::Cuadratic_UserIDMap(){
     _size = 0;
 }
 
-Cuadratic_UserIDMap::~Cuadratic_UserIDMap() {
+Quadratic_UserIDMap::~Quadratic_UserIDMap() {
     delete[] table;
 }
 
-User Cuadratic_UserIDMap::get(long long int key){
+User Quadratic_UserIDMap::get(long long int key){
     int i = hashUserID(key);
 
     for (int p = 0; p < HASHTABLE_SIZE; p++) {
@@ -175,7 +175,7 @@ User Cuadratic_UserIDMap::get(long long int key){
     return NULL_USER;
 }
 
-User Cuadratic_UserIDMap::put(long long int key, User value){
+User Quadratic_UserIDMap::put(long long int key, User value){
     int i = hashUserID(key);
 
     for (int p = 0; p < HASHTABLE_SIZE; p++) {
@@ -197,9 +197,9 @@ User Cuadratic_UserIDMap::put(long long int key, User value){
     throw "Failed to insert new key in double-hashing hash table";
 }
 
-int Cuadratic_UserIDMap::size(){return _size;}
+int Quadratic_UserIDMap::size(){return _size;}
 
-bool Cuadratic_UserIDMap::isEmpty(){return (_size == 0);}
+bool Quadratic_UserIDMap::isEmpty(){return (_size == 0);}
 
 Double_UserIDMap::Double_UserIDMap() {
     table = new Pair<long long>[HASHTABLE_SIZE];
@@ -395,7 +395,7 @@ int Linear_UsernameMap::size(){return _size;}
 
 bool Linear_UsernameMap::isEmpty(){return (_size == 0);}
 
-Cuadratic_UsernameMap::Cuadratic_UsernameMap(){
+Quadratic_UsernameMap::Quadratic_UsernameMap(){
     table = new Pair<std::string>[HASHTABLE_SIZE];
     for (int i = 0; i < HASHTABLE_SIZE; i++) {
         table[i] = NULL_PAIR_STRING;
@@ -403,11 +403,11 @@ Cuadratic_UsernameMap::Cuadratic_UsernameMap(){
     _size = 0;
 }
 
-Cuadratic_UsernameMap::~Cuadratic_UsernameMap() {
+Quadratic_UsernameMap::~Quadratic_UsernameMap() {
     delete[] table;
 }
 
-User Cuadratic_UsernameMap::get(std::string key){
+User Quadratic_UsernameMap::get(std::string key){
     int i = hashUsername(key);
 
     for (int p = 0; p < HASHTABLE_SIZE; p++) {
@@ -427,7 +427,7 @@ User Cuadratic_UsernameMap::get(std::string key){
     return NULL_USER;
 }
 
-User Cuadratic_UsernameMap::put(std::string key, User value){
+User Quadratic_UsernameMap::put(std::string key, User value){
     int i = hashUsername(key);
 
     for (int p = 0; p < HASHTABLE_SIZE; p++) {
@@ -449,9 +449,9 @@ User Cuadratic_UsernameMap::put(std::string key, User value){
     throw "Failed to insert new key in double-hashing hash table";
 }
 
-int Cuadratic_UsernameMap::size(){return _size;}
+int Quadratic_UsernameMap::size(){return _size;}
 
-bool Cuadratic_UsernameMap::isEmpty(){return (_size == 0);}
+bool Quadratic_UsernameMap::isEmpty(){return (_size == 0);}
 
 Double_UsernameMap::Double_UsernameMap() {
     table = new Pair<std::string>[HASHTABLE_SIZE];
@@ -512,43 +512,3 @@ User Double_UsernameMap::put(std::string key, User value) {
 int Double_UsernameMap::size() {return _size;}
 
 bool Double_UsernameMap::isEmpty() {return (_size == 0);}
-
-User STL_UserIDMap::get(long long key) {
-    try {
-        return _map.at(key);
-    }
-    catch (std::out_of_range) {
-        return NULL_USER;
-    }
-}
-
-User STL_UserIDMap::put(long long key, User value) {
-    User previousValue = get(key);
-    if (previousValue == NULL_USER) {_size++;}
-    _map[key] = value;
-    return previousValue;
-}
-
-int STL_UserIDMap::size() {return _size;}
-
-bool STL_UserIDMap::isEmpty() {return (_size == 0);}
-
-User STL_UsernameMap::get(std::string key) {
-    try {
-        return _map.at(key);
-    }
-    catch (std::out_of_range) {
-        return NULL_USER;
-    }
-}
-
-User STL_UsernameMap::put(std::string key, User value) {
-    User previousValue = get(key);
-    if (previousValue == NULL_USER) {_size++;}
-    _map[key] = value;
-    return previousValue;
-}
-
-int STL_UsernameMap::size() {return _size;}
-
-bool STL_UsernameMap::isEmpty() {return (_size == 0);}

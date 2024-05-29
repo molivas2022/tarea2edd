@@ -53,13 +53,13 @@ int main() {
 
     Chaining_UserIDMap dict1{};
     Linear_UserIDMap dict2{};
-    Cuadratic_UserIDMap dict3{};
+    Quadratic_UserIDMap dict3{};
     Double_UserIDMap dict4{};
     STL_UserIDMap dict5{};
 
     Chaining_UsernameMap dict6{};
     Linear_UsernameMap dict7{};
-    Cuadratic_UsernameMap dict8{};
+    Quadratic_UsernameMap dict8{};
     Double_UsernameMap dict9{};
     STL_UsernameMap dict10{};
 

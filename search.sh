@@ -11,13 +11,13 @@ g++ search_username.cpp user.cpp map.cpp hash.cpp test.cpp -o search_username
 for (( c=1; c<=30; c++ ))
 do
     # Ejecutamos las pruebas en los diccionarios con clave userid con entradas distintas
-    for n in 1000 2000 3000 4000 5000 6000 7000 8000 9000 10000 11000 12000 13000 14000 15000 16000 17000 18000 19000 20000 21070
+    for n in 2109 4218 6327 8436 10555 12654 14763 16872 18981 21070
     do
         ./search_userid $n 1000
     done
 
     # Ejecutamos las pruebas en los diccionarios con clave username con entradas distintas
-    for n in 1000 2000 3000 4000 5000 6000 7000 8000 9000 10000 11000 12000 13000 14000 15000 16000 17000 18000 19000 20000 21070
+    for n in 2109 4218 6327 8436 10555 12654 14763 16872 18981 21070
     do
         ./search_username $n 1000
     done

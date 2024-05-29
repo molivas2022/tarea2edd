@@ -1,4 +1,5 @@
 #include <iostream>
+#include <unordered_map>
 #include <string>
 #include <chrono>
 
@@ -23,6 +24,7 @@ void testUsernameMap(UsernameMap& map, User * users, int n, std::string testname
     /* Imprimimos el resultado */
     std::cout << testname << ";Username;" << n << ";" << running_time << std::endl;
 }
+void testUsernameMap(std::unordered_map<std::string, User> map, User * users, int n, std::string testname);
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 int main(int argc, char** argv) {
@@ -38,9 +40,9 @@ int main(int argc, char** argv) {
     
     Chaining_UsernameMap dict6{};
     Linear_UsernameMap dict7{};
-    Cuadratic_UsernameMap dict8{};
+    Quadratic_UsernameMap dict8{};
     Double_UsernameMap dict9{};
-    STL_UsernameMap dict10{};
+    std::unordered_map<std::string, User> dict10{};
 
     testUsernameMap(dict6, users, n, tests[0]);
     testUsernameMap(dict7, users, n, tests[1]);
@@ -52,4 +54,23 @@ int main(int argc, char** argv) {
     delete[] users;
 
     return 0;
+}
+
+
+/*  -- STL Map --  */
+void testUsernameMap(std::unordered_map<std::string, User> map, User * users, int n, std::string testname) {
+    /* Iniciamos el cronometro */
+    Clock c;
+    c.start();
+
+    /* Ejecutamos la inserción */
+    for (int i = 0; i < n; i++) {
+        map.insert({users[i].username, users[i]});
+    }
+
+    /* Calculamos el tiempo transcurrido */
+    double running_time = c.now();
+
+    /* Imprimimos el resultado */
+    std::cout << testname << ";Username;"  << n << ";" << running_time << std::endl;
 }

@@ -7,9 +7,9 @@
 #include "map.h"
 
 const std::string tests[] = {
-    "Hashing Encadenado",
+    "Separate Chaining",
     "Linear Probing",
-    "Cuadratic Probing",
+    "Quadratic Probing",
     "Double Hashing",
     "STL"
 };

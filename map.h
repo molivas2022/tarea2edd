@@ -1,7 +1,6 @@
 #pragma once
 
 #include <string>
-#include <unordered_map>
 #include "user.h"
 #include "hash.h"
 
@@ -70,12 +69,12 @@ public:
 };
 
 /* ADT Implementation */
-class Cuadratic_UserIDMap: public UserIDMap {
+class Quadratic_UserIDMap: public UserIDMap {
     Pair<long long> * table;
     int _size;
 public:
-    Cuadratic_UserIDMap();
-    ~Cuadratic_UserIDMap();
+    Quadratic_UserIDMap();
+    ~Quadratic_UserIDMap();
     User get(long long int) override;
     User put(long long int, User) override;
     int size() override;
@@ -122,12 +121,12 @@ public:
 };
 
 /* ADT Implementation */
-class Cuadratic_UsernameMap: public UsernameMap {
+class Quadratic_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
     int _size;
 public:
-    Cuadratic_UsernameMap();
-    ~Cuadratic_UsernameMap();
+    Quadratic_UsernameMap();
+    ~Quadratic_UsernameMap();
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;
@@ -141,28 +140,6 @@ class Double_UsernameMap: public UsernameMap {
 public:
     Double_UsernameMap();
     ~Double_UsernameMap();
-    User get(std::string) override;
-    User put(std::string, User) override;
-    int size() override;
-    bool isEmpty() override;
-};
-
-/* ADT Implementation */
-class STL_UserIDMap: public UserIDMap {
-    std::unordered_map<long long, User> _map;
-    int _size = 0;
-public:
-    User get(long long int) override;
-    User put(long long int, User) override;
-    int size() override;
-    bool isEmpty() override;
-};
-
-/* ADT Implementation */
-class STL_UsernameMap: public UsernameMap {
-    std::unordered_map<std::string, User> _map;
-    int _size = 0;
-public:
     User get(std::string) override;
     User put(std::string, User) override;
     int size() override;

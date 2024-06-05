@@ -17,19 +17,19 @@ Random::Random(User * users, int n) {
 }
 
 Random::~Random() {
-    delete mt;
+    delete mt; /* liberación de memoria */
 }
 
 long long Random::generateLongLong() {
     distr<long long> d;
-    return d(*mt);
+    return d(*mt); /* genera long long aleatorio */
 }
 
 std::string Random::generateString() {
-    distr<int> i(8,32);
+    distr<int> i(8,32); /* tamaño de string entre 8 y 32 */
     int size = i(*mt);
 
-    distr<char> c(65,90);
+    distr<char> c(65,90); /* cada caracter se una letra aleatoria */
     std::string str;
     for (int i = 0; i < size; i++) {
         str.push_back(c(*mt));
@@ -39,20 +39,20 @@ std::string Random::generateString() {
 
 long long * Random::generateIDSample(int sampleSize) {
     long long * llongs = new long long[sampleSize];
-    distr<int> d(0, n-1);
+    distr<int> d(0, n-1); /* escoge una entrada aleatoria */
 
     for (int i = 0; i < sampleSize; i++) {
-        llongs[i] = users[d(*mt)].userID;
+        llongs[i] = users[d(*mt)].userID; /* y accede a su ID */
     }
     return llongs;
 }
 
 std::string * Random::generateUsernameSample(int sampleSize) {
     std::string * strings = new std::string[sampleSize];
-    distr<int> d(0, n-1);
+    distr<int> d(0, n-1); /* escoge una entrada aleatoria */
 
     for (int i = 0; i < sampleSize; i++) {
-        strings[i] = users[d(*mt)].username;
+        strings[i] = users[d(*mt)].username; /* y accede a su username */
     }
     return strings;
 }
@@ -63,9 +63,9 @@ long long * Random::generateFalseIDSample(int sampleSize) {
     for (int i = 0; i < sampleSize; i++) {
         long long candidate;
         while (true) {
-            candidate = generateLongLong();
+            candidate = generateLongLong(); /* genera un long long aleatorio */
             for (int i = 0; i < n; i++) {
-                if (candidate == users[i].userID) {
+                if (candidate == users[i].userID) { /* y verifica que no sea el ID de un usuario */
                     continue;
                 }
             }
@@ -82,8 +82,8 @@ long long * Random::generateFalseIDSample_Fast(int sampleSize, UserIDMap& verifi
     for (int i = 0; i < sampleSize; i++) {
         long long candidate;
         while (true) {
-            candidate = generateLongLong();
-            if (!(verifier.get(candidate) == NULL_USER)) {
+            candidate = generateLongLong(); /* genera un long long aleatorio */
+            if (!(verifier.get(candidate) == NULL_USER)) { /* y verifica que no sea el ID de un usuario */
                 continue;
             }
             break;
@@ -99,9 +99,9 @@ std::string * Random::generateFalseUsernameSample(int sampleSize) {
     for (int i = 0; i < sampleSize; i++) {
         std::string candidate;
         while (true) {
-            candidate = generateString();
+            candidate = generateString(); /* genera un string aleatorio */
             for (int i = 0; i < n; i++) {
-                if (candidate == users[i].username) {
+                if (candidate == users[i].username) { /* y verifica que no sea el username de un usuario */
                     continue;
                 }
             }
@@ -118,8 +118,8 @@ std::string * Random::generateFalseUsernameSample_Fast(int sampleSize, UsernameM
     for (int i = 0; i < sampleSize; i++) {
         std::string candidate;
         while (true) {
-            candidate = generateString();
-            if (!(verifier.get(candidate) == NULL_USER)) {
+            candidate = generateString(); /* genera un string aleatorio */
+            if (!(verifier.get(candidate) == NULL_USER)) { /* y verifica que no sea el username de un usuario */
                 continue;
             }
             break;
@@ -135,18 +135,18 @@ Clock::Clock() {
 
 void Clock::start() {
     using namespace std::chrono;
-    _start = high_resolution_clock::now();
+    _start = high_resolution_clock::now(); /* inicializa el cronometro */
     _lap = high_resolution_clock::now();
 }
 
 double Clock::lap() {
     using namespace std::chrono;
-    high_resolution_clock::time_point _lastlap = _lap;
-    _lap = high_resolution_clock::now();
-    return duration_cast<nanoseconds>(_lap - _lastlap).count() * 1e-6;
+    high_resolution_clock::time_point _lastlap = _lap; /* llamado anterior a lap() */
+    _lap = high_resolution_clock::now(); /* nuevo llamado a lap() */
+    return duration_cast<nanoseconds>(_lap - _lastlap).count() * 1e-6; /* diferencia en milisegundos */
 }
 
 double Clock::now() {
     using namespace std::chrono;
-    return duration_cast<nanoseconds>(high_resolution_clock::now() - _start).count() * 1e-6;
+    return duration_cast<nanoseconds>(high_resolution_clock::now() - _start).count() * 1e-6; /* diferencia en milisegundos */
 }

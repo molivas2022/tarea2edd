@@ -4,19 +4,22 @@
 #include "user.h"
 #include "hash.h"
 
-/* Auxiliar data type */
+/* Estructura auxiliar, almacena un par clave-valor */
 template <typename T>
 struct Pair {
     T key;
     User value;
 
+    /* Dos pares clave valor son iguales si y solo si coinciden la clave y el valor */
     bool operator==(Pair<T>);
 };
 
+/* Par clave-valor nulo para claves númericas */
 const Pair<long long> NULL_PAIR_LLONG{0, NULL_USER};
+/* Par clave-valor nulo para claves alfabéticas */
 const Pair<std::string> NULL_PAIR_STRING{"null", NULL_USER};
 
-/* Auxiliar data type */
+/* Estructura auxiliar, nodo de una lista enlazada, almacena un par clave-valor */
 template <typename T>
 struct Node {
     Node * next = nullptr;
@@ -24,25 +27,32 @@ struct Node {
     User value;
 };
 
-/* Abstract data type */
+/* Tipo de dato abstracto: Mapa */
+/* Almacena pares clave-valor. No permite repetición de una misma clave */
 template <typename key, typename value>
 class Map {
 public:
+    /* Devuelve el valor asociado a una clave. Devuelve el nulo en caso de no existir la clave */
     virtual value get(key) = 0;
+    /* Agrega un par clave-valor */
+    /* Devuelve el valor anterior asociado a la clave */
+    /* Devuelve el nulo en caso de no existir la clave anteriormente */
     virtual value put(key, value) = 0;
+    /* Devuelve el tamaño del Mapa, es decir, cuantos pares clave-valor hay almacenados */
     virtual int size() = 0;
+    /* Devuelve verdadero si y solo si el tamaño del Mapa es cero */
     virtual bool isEmpty() = 0;
 };
 
-/* Abstract data type */
+/* Mapa de clave númerica y valor un struct User */
 class UserIDMap: public Map<long long int, User> {
 };
 
-/* Abstract data type */
+/* Mapa de clave alfabética y valor un struct User */
 class UsernameMap: public Map<std::string, User> {   
 };
 
-/* ADT Implementation */
+/* Implementación de Map de encadenamiento separado para claves númericas */
 class Chaining_UserIDMap: public UserIDMap {
     Node<long long> ** table;
     int _size;
@@ -55,7 +65,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con lineal probing para claves númericas */
 class Linear_UserIDMap: public UserIDMap {
     Pair<long long> * table;
     int _size;
@@ -68,7 +78,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con quadratic probing para claves númericas */
 class Quadratic_UserIDMap: public UserIDMap {
     Pair<long long> * table;
     int _size;
@@ -81,7 +91,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con double hashing para claves númericas */
 class Double_UserIDMap: public UserIDMap {
     Pair<long long> * table;
     int _size;
@@ -94,7 +104,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map de encadenamiento separado para claves alfabéticas */
 class Chaining_UsernameMap: public UsernameMap {
     Node<std::string> ** table;
     int _size;
@@ -107,7 +117,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con linear probing para claves alfabéticas */
 class Linear_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
     int _size;
@@ -120,7 +130,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con quadratic probing para claves alfabéticas */
 class Quadratic_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
     int _size;
@@ -133,7 +143,7 @@ public:
     bool isEmpty() override;
 };
 
-/* ADT Implementation */
+/* Implementación de Map con double hashing para claves alfabéticas */
 class Double_UsernameMap: public UsernameMap {
     Pair<std::string> * table;
     int _size;

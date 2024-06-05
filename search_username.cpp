@@ -8,6 +8,7 @@
 #include "map.h"
 #include "test.h"
 
+/* Se mide el tiempo de realizar k busquedas exitosas en un mapa de tamaño n de claves alfabéticas */
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 void testUsernameMap(UsernameMap& map, User * users, std::string * names, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
@@ -33,8 +34,10 @@ void testUsernameMap(UsernameMap& map, User * users, std::string * names, int n,
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
     std::cout << testname << ";Username;" << "Almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+/* Sobrecarga para probar unordered_map de la STL */
 void testUsernameMap(std::unordered_map<std::string, User> map, User * users, std::string * names, int n, int k, std::string testname);
 
+/* Se mide el tiempo de realizar k busquedas fallidas (la clave no existe) en un mapa de tamaño n de claves alfabéticas */
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 void negativeTestUsernameMap(UsernameMap& map, User * users, std::string * falsenames, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
@@ -60,6 +63,7 @@ void negativeTestUsernameMap(UsernameMap& map, User * users, std::string * false
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
     std::cout << testname << ";Username;" << "No almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+/* Sobrecarga para probar unordered_map de la STL */
 void negativeTestUsernameMap(std::unordered_map<std::string, User> map, User * users, std::string * falsenames, int n, int k, std::string testname);
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
@@ -104,8 +108,8 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+/* Implementación para unordered_map de la STL */
 
-/* -- STL Map -- */
 void testUsernameMap(std::unordered_map<std::string, User> map, User * users, std::string * names, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
     for (int i = 0; i < n; i++) {

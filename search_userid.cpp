@@ -8,6 +8,7 @@
 #include "map.h"
 #include "test.h"
 
+/* Se mide el tiempo de realizar k busquedas exitosas en un mapa de tamaño n de claves númericas */
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
@@ -33,8 +34,10 @@ void testUserIDMap(UserIDMap& map, User * users, long long * ids, int n, int k, 
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
     std::cout << testname << ";UserID;" << "Almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+/* Sobrecarga para probar unordered_map de la STL */
 void testUserIDMap(std::unordered_map<long long, User> map, User * users, long long * ids, int n, int k, std::string testname);
 
+/* Se mide el tiempo de realizar k busquedas fallidas (la clave no existe) en un mapa de tamaño n de claves númericas */
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
 void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
@@ -60,6 +63,7 @@ void negativeTestUserIDMap(UserIDMap& map, User * users, long long * falseids, i
     float load_factor = ((float)n)/((float)HASHTABLE_SIZE);
     std::cout << testname << ";UserID;" << "No almacenados;" << std::setprecision(2) << load_factor << ";" << running_time << std::endl;
 }
+/* Sobrecarga para probar unordered_map de la STL */
 void negativeTestUserIDMap(std::unordered_map<long long, User> map, User * users, long long * falseids, int n, int k, std::string testname);
 
 /* Fuente: Modificación del código del video explicativo para experimentación subido en Canvas */
@@ -104,8 +108,8 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+/* Implementación para unordered_map de la STL */
 
-/* -- STL Map -- */
 void testUserIDMap(std::unordered_map<long long, User> map, User * users, long long * ids, int n, int k, std::string testname) {
     /* Rellenamos los diccionarios */
     for (int i = 0; i < n; i++) {

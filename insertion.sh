@@ -3,7 +3,7 @@
 # Imprimimos una cabecera para nuestro archivo CSV
 echo "Tipo de Mapa;Clave;Número de Elementos;Tiempo"
 
-# Compilamos (Quizás no es buena idea compilar en un .bat/.sh)
+# Compilamos
 g++ insertion_userid.cpp user.cpp map.cpp hash.cpp test.cpp -o insertion_userid
 g++ insertion_username.cpp user.cpp map.cpp hash.cpp test.cpp -o insertion_username
 

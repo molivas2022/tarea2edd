@@ -2,10 +2,10 @@
 
 #include <string>
 
-#define ENTRIES_SIZE 21070
-#define ENTRIES_PATH "universities_followers.csv"
+#define ENTRIES_SIZE 21070 /* Número de entradas en el dataset */
+#define ENTRIES_PATH "universities_followers.csv" /* archivo .csv del dataset */
 
-/* Data type */
+/* Estructura para almacenar la información de una entrada (usuario) */
 struct User {
     std::string university;
     long long int userID;
@@ -15,14 +15,20 @@ struct User {
     int followerCount;
     std::string creationDate;
     
+    /* Dos struct User son iguales si y solo si todos sus campos son iguales */
     bool operator==(User);
 };
 
-/* Null value */
+/* Valor nulo */
 const User NULL_USER{std::string("null"), 0, std::string("null"), 0, 0, 0, std::string("null")};
 
-/* User functions */
+/* Funciones */
+
+/* Función auxiliar que imprime los datos de un usuario */
 void printUser(User);
-User* readEntries(int);
-long long* readUserIDs(int);
-std::string* readUsernames(int);
+/* Lee las primeras n entradas del dataset */
+User* readEntries(int n);
+/* Lee los IDs de las primeras n entradas del dataset */
+long long* readUserIDs(int n);
+/* Lee los nombres de usuario de las primeras n entradas del dataset */
+std::string* readUsernames(int n);
